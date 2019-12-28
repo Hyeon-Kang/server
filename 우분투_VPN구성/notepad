@@ -77,11 +77,6 @@ $sudo cdmod 600 *
 $sudo chmod 700 vpnserver
 $sudo chmod 700 vpncmd
 
-$sudo ./vpncmd
-$ 3
-
-서버 동작 확인
-$check
 
 자동화 쉘 작성
 $sudo vi /etc/init.d/vpnserver
@@ -122,6 +117,20 @@ $sudo /etc/init.d/vpnserver start
 
 인스턴스 부팅시 시작 설
 $sudo update-rc.d vpnserver defaults
+
+$sudo ./vpncmd
+$ 3
+
+서버 동작 확인
+$check
+
+설정 화면에서 나가기
+$exit
+
+Press exit to leave.
+
+
+
 SoftEther VPN Server Manager 설치 (windows)
     다음 링크로 접근 : http://www.softether-download.com/en.aspx?product=softether
     Select Software : SoftEther VPN(Freeware),
@@ -131,3 +140,19 @@ SoftEther VPN Server Manager 설치 (windows)
 
     설치 시
     옵션에서 SoftEtherVPN Server Manager(Tool Only)설치
+
+툴 설정은 다음 링크 참 (서버에서 자체 설정 시 첫 번째 링크 참조)
+https://gigglehd.com/gg/soft/3063945
+
+
+PPTP, L2TP 및 기타 VPN 프로토콜?
+출처 : https://www.expressvpn.com/kr/what-is-vpn/protocols/l2tp
+
+* L2TP는 일부 방화벽이 차단하는 것으로 알려진 UDP 포트 500을 사용하기 때문에 때때로 방화벽 관련 문제를 겪을 수 있습니다.
+
+udp 500 추가
+
+
+client:
+가상 네트워크 어댑터 생성
+VPN 커넥션 설정(서버와 연결)
