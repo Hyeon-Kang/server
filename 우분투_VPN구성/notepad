@@ -1,2 +1,34 @@
 vpn 설명 참조링크
 https://rlarlgns.github.io/rlarlgns.github.io/2017-06-15/VPN/
+
+아마존에서 한번 구현해보자
+https://tayrelgrin.blogspot.com/2018/08/amazon-aws-vpn.html
+
+AWS EC2 인스턴스에서 softetherVPN (SecureNAT) 구현 사례
+https://gigglehd.com/gg/soft/3063945
+
+
+
+
+네트워크 연결 방식
+
+SecureNAT : virtualNAT 과 virtualDHCP 가상의 네트워크 인터페이스를 제공하여 사용자가
+vpn에 접속하면 자동으로 네트워크 인터페이스 값을 받아 별도의 설정 없이 사용할 수 있음
+
+출처 : https://www.softether.org/index.php?title=4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.7_Virtual_NAT_%26_Virtual_DHCP_Servers
+
+
+NAT : 네트워크 주소 변환(Network Address Translation, 줄여서 NAT)은 IP 패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술을 말합니다.
+(간단하게 공인IP 하나로 사설IP 여럿을 생성하여 다수가 이용)
+
+출처: https://jwprogramming.tistory.com/30 [개발자를 꿈꾸는 프로그래머]
+
+LocalBridge : virtual Hub와 사용자의 네트워크 인터페이스 카드 (물리장치)간 2계층 단계의 연결을 구축하여 이론적으로 동일한 이더넷 수준에서 통신할 수 있다.
+SecureNAT보다 더 빠름
+
+출처 : https://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.6_Local_Bridges
+
+속도 비교 사례 : https://blog.poohsiro.com/201
+
+
+이제 AWS EC2인스턴스를 응용하여 서로 다른 리전 인스턴스간 VPN을 구축하고 통신 실습을 해보자.
