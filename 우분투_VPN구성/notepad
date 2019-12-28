@@ -31,4 +31,103 @@ SecureNAT보다 더 빠름
 속도 비교 사례 : https://blog.poohsiro.com/201
 
 
-이제 AWS EC2인스턴스를 응용하여 서로 다른 리전 인스턴스간 VPN을 구축하고 통신 실습을 해보자.
+AWS EC2인스턴스를 응용하여 서로 다른 리전 인스턴스간 VPN을 구축하고 통신 실습을 해보자.
+
+
+
+gcp 환경에서 SecureNAT 방식의 VPN구축
+(참고 링크)
+https://sparekh.com/how-to-setup-softether-vpn-server-on-ubuntu-into-google-cloud-platform/
+
+yum upgrade 진행
+$sudo yum upgrade
+
+* yum repository 추가 (수동, 자동)
+출처 : https://conory.com/blog/42596
+
+ubuntu 기준이므로 apt로 진행
+
+SoftEther 설치
+  다음 링크로 접근 : http://www.softether-download.com/en.aspx?product=softether
+  Select Software : SoftEther VPN(Freeware),
+  Select component : SoftEther VPN Server
+  Select Platform : Linux
+  Select CPU :
+
+터미널에 SoftEther 설치
+$wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz
+
+압축 풀기
+$sudo tar xzvf softether ....
+
+설치에 필요한 툴 준비
+$sudo apt-get update
+$sudo apt-get install build-essential
+$sudo apt install gcc
+
+$cd vpnserver (압축 푼 경로에서)
+$make
+$ 1 / 1 / 1  이후 진행되는 질문 셋 모두 동의
+
+$cd ..
+$sudo mv vpnserver /usr/local
+$cd /usr/local/vpnserver
+
+$sudo cdmod 600 *
+$sudo chmod 700 vpnserver
+$sudo chmod 700 vpncmd
+
+$sudo ./vpncmd
+$ 3
+
+서버 동작 확인
+$check
+
+자동화 쉘 작성
+$sudo vi /etc/init.d/vpnserver
+
+이하 내용 저장
+#!/bin/sh
+# chkconfig: 2345 99 01
+# description: SoftEther VPN Server
+DAEMON=/usr/local/vpnserver/vpnserver
+LOCK=/var/lock/subsys/vpnserver
+test -x $DAEMON || exit 0
+case "$1" in
+start)
+$DAEMON start
+touch $LOCK
+;;
+stop)
+$DAEMON stop
+rm $LOCK
+;;
+restart)
+$DAEMON stop
+sleep 3
+$DAEMON start
+;;
+*)
+echo "Usage: $0 {start|stop|restart}"
+exit 1
+esac
+exit 0
+
+
+작성한 스크립트 권한 설정
+$sudo chmod 755 /etc/init.d/vpnserver
+
+서버 시동
+$sudo /etc/init.d/vpnserver start
+
+인스턴스 부팅시 시작 설
+$sudo update-rc.d vpnserver defaults
+SoftEther VPN Server Manager 설치 (windows)
+    다음 링크로 접근 : http://www.softether-download.com/en.aspx?product=softether
+    Select Software : SoftEther VPN(Freeware),
+    Select component : SoftEther VPN Server Manager for Windows
+    Select Platform : windows
+    Select CPU :
+
+    설치 시
+    옵션에서 SoftEtherVPN Server Manager(Tool Only)설치
