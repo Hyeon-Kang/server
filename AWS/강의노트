@@ -5,18 +5,3 @@ https://www.aws.training/Details/Curriculum?id=32442
 1. aws 파트너 계정 요청 (공부)
 2. 임시 계정 만들어 미리 해볼까?
 3.
-
-
-
-네트워크 연결 방식
-
-SecureNAT : virtualNAT 과 virtualDHCP 가상의 네트워크 인터페이스를 제공하여 사용자가
-vpn에 접속하면 자동으로 네트워크 인터페이스 값을 받아 별도의 설정 없이 사용할 수 있음
-
-출처 : https://www.softether.org/index.php?title=4-docs/1-manual/3._SoftEther_VPN_Server_Manual/3.7_Virtual_NAT_%26_Virtual_DHCP_Servers
-
-
-NAT : 네트워크 주소 변환(Network Address Translation, 줄여서 NAT)은 IP 패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술을 말합니다.
-(간단하게 공인IP 하나로 사설IP 여럿을 생성하여 다수가 이용)
-
-출처: https://jwprogramming.tistory.com/30 [개발자를 꿈꾸는 프로그래머]
