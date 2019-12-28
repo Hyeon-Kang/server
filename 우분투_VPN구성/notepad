@@ -148,6 +148,12 @@ https://gigglehd.com/gg/soft/3063945
 PPTP, L2TP 및 기타 VPN 프로토콜?
 출처 : https://www.expressvpn.com/kr/what-is-vpn/protocols/l2tp
 
+L2TP는 Layer 2 Tunneling Protocol(계층 2 터널링 프로토콜)의 약자입니다. L2TP는 L2F(계층 2 포워딩 프로토콜)와 PPTP(지점간 터널링 프로토콜)가 결합된 프로토콜로 1999년에 처음 제안되었습니다. L2TP는 자체적으로 강력한 암호화 또는 인증을 제공하지 않기 때문에 IPsec이라는 또다른 프로토콜이 L2TP와 함께 사용되는 경우가 많습니다.
+
+IPsec은 Internet Protocol security(인터넷 프로토콜 보안)의 약자입니다. IPsec은 주어진 통신에서 각각의 개별 IP 패킷을 인증 및 암호화하는 종단간 보안을 위한 매우 유연한 프로토콜입니다. IPsec은 다양한 애플리케이션의 인터넷 프로토콜 슈트의 인터넷 계층에 사용됩니다.
+
+L2TP와 IPsec을 함께 사용하면 PPTP(지점간 터널링 프로토콜)보다 훨씬 안전하지만 보안보다 익명화에 더 적합합니다.
+
 * L2TP는 일부 방화벽이 차단하는 것으로 알려진 UDP 포트 500을 사용하기 때문에 때때로 방화벽 관련 문제를 겪을 수 있습니다.
 
 udp 500 추가
@@ -156,3 +162,14 @@ udp 500 추가
 client:
 가상 네트워크 어댑터 생성
 VPN 커넥션 설정(서버와 연결)
+
+** Host Name과 Virtual Hub Name 입력은 임의로 입력하면 안 됨!
+호스트 연결 시 host name 항목은 DNS가 아닌 Server Manage 하단의 current ddns hostname 입력
+Virtual Hub Name 은 Default 또는 자신이 지정한 이름 기재
+
+아이폰에서 접속?
+https://blog.poohsiro.com/124
+
+
+191229 아이폰7 vpn 접속 테스트 성공 (google홈 us 표기)
+191229 데스크탑 vpn 접속 테스트 성공 (google홈 us 표기)
