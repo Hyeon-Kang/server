@@ -7,7 +7,10 @@ https://tayrelgrin.blogspot.com/2018/08/amazon-aws-vpn.html
 AWS EC2 인스턴스에서 softetherVPN (SecureNAT) 구현 사례
 https://gigglehd.com/gg/soft/3063945
 
+AWS softether LocalBridge 구현 사례
+https://blog.poohsiro.com/203
 
+VPN 종류 : softether, V2Ray, Shadowsocks(Outline), L2TP, OpenVPN
 
 
 네트워크 연결 방식
