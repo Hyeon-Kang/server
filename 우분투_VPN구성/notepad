@@ -119,9 +119,10 @@ $sudo chmod 755 /etc/init.d/vpnserver
 서버 시동
 $sudo /etc/init.d/vpnserver start
 
-인스턴스 부팅시 시작 설
+인스턴스 부팅시 시작 설정
 $sudo update-rc.d vpnserver defaults
 
+내부 설정
 $sudo ./vpncmd
 $ 3
 
