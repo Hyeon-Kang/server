@@ -6,6 +6,7 @@ https://tayrelgrin.blogspot.com/2018/08/amazon-aws-vpn.html
 
 AWS EC2 인스턴스에서 softetherVPN (SecureNAT) 구현 사례
 https://gigglehd.com/gg/soft/3063945
+https://luvix.github.io/install-l2tp-vpn-server/ (모든 설정을 서버에서 구현)
 
 AWS softether LocalBridge 구현 사례
 https://blog.poohsiro.com/203
@@ -180,3 +181,5 @@ https://blog.poohsiro.com/124
 
 Local Bridge 세팅
 출처 : https://enesto7.wordpress.com/2017/02/25/softether-local-bridges-vpn-debian/
+
+로컬 브릿지에서 dhcp 설정
