@@ -1,0 +1,5 @@
+Amazon Cognito는 웹 및 모바일 앱에 대한 인증, 권한 부여 및 사용자 관리를 제공
+
+API Gateway로 RESTful API구성하기 -> 필요 없음
+
+cognito로 회원가입 시스템을 만든 것은 좋은데 이러면 별도의 계정이 필요하지 않은가?
