@@ -1,0 +1,16 @@
+자습서: EC2 인스턴스 시작
+출처 : https://docs.aws.amazon.com/ko_kr/sdk-for-java/v1/developer-guide/how-to-ec2.html#prerequisites
+
+주제
+
+사전 요구 사항
+Amazon EC2 보안 그룹 만들기
+키 페어 만들기
+Amazon EC2 인스턴스 실행
+
+EC2 보안 그룹 생성
+출처 : https://zamezzz.tistory.com/301
+
+키 페어 생성
+EC2 key pair 설명 : https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-key-pairs.html
+(ec2 생성할 때 생성했잔ㄶ어)
