@@ -1,0 +1,22 @@
+참고 링크 : https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/intro-structure.html
+
+
+IAM : Identity and Access Management
+사용자 계정에 대한 인증 및 권한 부여를 제어
+
+IAM은 Resource, ID, Entities(개체), Principals(보안 주체) 로 구성됨
+
+  Resource는 IAM에 저장된 사용자, 그룹, 정책 및 자격 증명 공급자(?) 객체.
+
+
+아마존 웹 서비스 IAM 사용자의 액세스 키 발급 및 관리
+출처 : https://www.44bits.io/ko/post/publishing_and_managing_aws_user_access_key
+
+하나의 IAM 사용자IAM User가 반드시 한 명의 사람이어야하는 것은 아닙니다.
+이는 사람과 1:1로 매치되는 개념이라기보다는 권한을 정의하기 위한
+하나의 논리적인 단위로 보는 것이 더 적절합니다.
+
+SDK 등 외부 프로그래밍 방식으로 인스턴스에 접근하기 위해서는 위의 출처를 따라
+IAM 사용자를 생성한다.
+
+권한 부여는 직접 설정에서 administrator access 선택 (사실 상 root 권한)
