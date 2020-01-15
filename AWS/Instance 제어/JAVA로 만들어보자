@@ -9,6 +9,7 @@ https://docs.aws.amazon.com/ko_kr/AWSJavaSDK/latest/javadoc/index.html
 
 AWS SDK for Java Documentation Examples (git hub)
 https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/java
+https://github.com/aws/aws-sdk-java
 
 REST API를 사용하여 요청 인증
 https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/S3_Authentication2.html
@@ -17,7 +18,24 @@ https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/S3_Authentication2.html
 Q1. gcp의 경우 google Oauth2.0을 통해 사용자에게 접근할 수 있다.
    그럼 aws는 무엇을 통해 접근할 수 있을까? : IAM, REST api
 
-   REST API로 접근을 하기 위해서는
-   IAM access key id가 필요하다.
 
-   -> IAM 작동방식 이해로 넘어가잔
+AWS package Maven 의존성 정보는 다음과 같다.
+
+<!-- AWS com.amazonaws Library or Java -->
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk</artifactId>
+    <version>1.11.706</version>
+</dependency>
+
+
+REST API로 접근을 하기 위해서는
+IAM access key id가 필요하다.
+
+-> Access Key ID는 IAM 에서 얻을 수 있다.
+
+REST API 사용시 필수 요소
+AccessKeyId, Action, Timestamp, ParameterA
+
+
+AWS cognito 를 통해 oauth 인증이 가능???
