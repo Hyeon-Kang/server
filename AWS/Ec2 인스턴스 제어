@@ -14,3 +14,13 @@ EC2 보안 그룹 생성
 키 페어 생성
 EC2 key pair 설명 : https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-key-pairs.html
 (ec2 생성할 때 생성했잔ㄶ어)
+
+
+EC2 computer Engine API for java SDK
+출처 :
+(document)
+
+최소 구성
+
+1. 로그인
+2. 서비스확인
