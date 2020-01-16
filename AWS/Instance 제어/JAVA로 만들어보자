@@ -49,3 +49,28 @@ aws cli2 설치
 aws2 cofigure -> IAM access_key, secret_key, instance_region, json
 aws2 ec2 describe-instances (instance 조회)
 획득한 Instance ID를 Java 코드에 전달
+
+버튼에 대한 액션을 aws로 변경, instance id 획득 방법 모색
+
+Q: How to find InstanceID? (AWS forums 질문글)
+https://forums.aws.amazon.com/thread.jspa?threadID=100982
+
+A : 인스턴스 메타데이터 및 사용자 데이터 추출
+https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
+
+A: 인스턴스 메타데이터 가져오기
+https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
+
+Link Local Address?
+
+브로드 캐스트 도메인 내의 통신에 대해서만 유효한 네트워크 주소
+169.254.1.0 ~ 169.254.254.255 의 범위로 특별히 예약되어 있는 네트워크 주소 (IPv4)
+
+출처: https://sjlim5092.tistory.com/entry/link-local-addressIPv4-개념-및-사용법-정리 [My Own Style]
+
+리눅스 쉘 스크립트 기준이라 부적합...
+
+다른 방법
+
+https://stackoverflow.com/questions/23081848/get-instance-id-of-ec2-instance-via-java/30317951#30317951
+https://codeflex.co/java-get-ec2-private-public-ip-and-instance-id/
