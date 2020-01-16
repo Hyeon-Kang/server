@@ -39,3 +39,13 @@ AccessKeyId, Action, Timestamp, ParameterA
 
 
 AWS cognito 를 통해 oauth 인증이 가능???
+
+IAM 추출, IAM 사용자 - IAM 규칙(역할) - EC2인스턴스 접근
+
+
+ec2 인스턴스 인식 과정
+
+aws cli2 설치
+aws2 cofigure -> IAM access_key, secret_key, instance_region, json
+aws2 ec2 describe-instances (instance 조회)
+획득한 Instance ID를 Java 코드에 전달
