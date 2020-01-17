@@ -74,3 +74,14 @@ Link Local Address?
 
 https://stackoverflow.com/questions/23081848/get-instance-id-of-ec2-instance-via-java/30317951#30317951
 https://codeflex.co/java-get-ec2-private-public-ip-and-instance-id/
+
+EC2MetadataUtils 사용 예시
+https://www.javatips.net/api/com.amazonaws.util.ec2metadatautils
+* 별 다른거 없이 호출해서 쓰던데 왜 NULL만 뜸?
+
+EC2MedataUtill 라이브러리로 호출은 실패하였으나
+
+DescribeInstances.java (보유한 Instance metadata 획득) 을 사용하여
+Instance Id만 추출하여 획득 성공
+
+https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/ec2/src/main/java/aws/example/ec2/DescribeInstances.java
