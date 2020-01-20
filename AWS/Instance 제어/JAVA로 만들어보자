@@ -85,3 +85,26 @@ DescribeInstances.java (보유한 Instance metadata 획득) 을 사용하여
 Instance Id만 추출하여 획득 성공
 
 https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/ec2/src/main/java/aws/example/ec2/DescribeInstances.java
+
+
+1. 버튼이든 테이블이든 선택할 수 있게 만들기
+ -> 선택 시 해당 인스턴스의 값을 변수로 넘겨주어야 함
+
+2. 로그인 방식 정하기
+3. 현재 별 다른 key 설정 없이도 동작하는 이유는
+aws2 cli에서 생성한 프로파일 덕분이다.
+이것의 생성 자동화 방법? batch 파일?
+
+
+
+AWS SDK for Java Documentation Examples
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/java
+
+html 에서 jsp로 기반을 옮기는 것은 어떨까?
+https://offbyone.tistory.com/391
+
+Mustache로 해결
+
+
+
+---완성--- (리포지토리는 깃랩에)
