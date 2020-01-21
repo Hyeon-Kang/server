@@ -11,6 +11,54 @@
 L2 : 네트워크 인터페이스 카드 MAC (Media Access Control) / 데이터 링크
 L3 : IP 주소 기반 패킷 경로제어, 라우팅 기능 수행 / 네트워크
 L4 : IP와 포트 정보 기반 LB 기능 수행, L3 기능 포함 / 네트워크, 전송
-L7 : 패킷 데이터 영역 분석 및 필터링 수행, 웹 스위칭 기능 (UTF, NAC 등 부가 기능 블레이드 서버)
+L7 : 패킷 데이터 영역 분석 및 필터링 수행, 웹 스위칭 기능 (UTM, NAC 등 부가 기능 블레이드 서버)
 
 라우터, NAT(Network Address Translation)
+
+
+보안장비
+
+출처 : https://multicore-it.com/73?category=686777
+
+방화벽 : IP와 Port 기반으로 유해 트래픽 필터링
+IDS : Instrusion(침입) Detection System - 침입 탐지
+IPS : Instrusion Protection System - 침입으로부터 정보 보호
+UTM : Unified Threat Management - 방화벽, IDS, IPS 기능을 제공하는 통합 보호 시스템
+ESM : Enterprise Security Management - 자원 보호를 위해 침입을 탐지하고 차단하는 시슽ㅁ
+
+여러 기능을 제공하는 UTM 과 ESM으로 갈아타는 추세
+
+public Map<String, Object> descEC2(String instance_id) {
+
+  Map<String, Object> resultMap = new HashMap<>();
+
+  AmazonEC2 ec2 = ec2Client();
+
+  boolean done = false;
+  DescribeInstancesRequest request = new DescribeInstancesRequest();
+  while (!done) {
+
+    DescribeInstancesResult response = ec2.describeInstances(request);
+
+    for (Reservation reservation : response.getReservations()) {
+      for (Instance instance : reservation.getInstances()) {
+        if (instance_id.equals(instance.getInstanceId())) {
+          resultMap.put("instance_id", instance.getInstanceId());
+          resultMap.put("ami", instance.getImageId());
+          resultMap.put("state", instance.getState().getName());
+          resultMap.put("monitoring_state", instance.getMonitoring().getState());
+          resultMap.put("launchTime", instance.getLaunchTime());
+        }
+      }
+    }
+
+    request.setNextToken(response.getNextToken());
+
+    if (response.getNextToken() == null) {
+      done = true;
+    }
+  }
+
+  return resultMap;
+
+}
