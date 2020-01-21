@@ -95,7 +95,8 @@ https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/ec
 aws2 cli에서 생성한 프로파일 덕분이다.
 이것의 생성 자동화 방법? batch 파일?
 
-
+delete key pairs srkdkfkskdsdlkkk
+deleteNatGateWay nou =n
 
 AWS SDK for Java Documentation Examples
 https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/java
@@ -103,8 +104,8 @@ https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/java
 html 에서 jsp로 기반을 옮기는 것은 어떨까?
 https://offbyone.tistory.com/391
 
-Mustache로 해결
+Mustache로 stateList 전달
 
-
+***해결
 
 ---완성--- (리포지토리는 깃랩에)
