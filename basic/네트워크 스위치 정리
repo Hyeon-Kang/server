@@ -27,38 +27,3 @@ UTM : Unified Threat Management - 방화벽, IDS, IPS 기능을 제공하는 통
 ESM : Enterprise Security Management - 자원 보호를 위해 침입을 탐지하고 차단하는 시슽ㅁ
 
 여러 기능을 제공하는 UTM 과 ESM으로 갈아타는 추세
-
-public Map<String, Object> descEC2(String instance_id) {
-
-  Map<String, Object> resultMap = new HashMap<>();
-
-  AmazonEC2 ec2 = ec2Client();
-
-  boolean done = false;
-  DescribeInstancesRequest request = new DescribeInstancesRequest();
-  while (!done) {
-
-    DescribeInstancesResult response = ec2.describeInstances(request);
-
-    for (Reservation reservation : response.getReservations()) {
-      for (Instance instance : reservation.getInstances()) {
-        if (instance_id.equals(instance.getInstanceId())) {
-          resultMap.put("instance_id", instance.getInstanceId());
-          resultMap.put("ami", instance.getImageId());
-          resultMap.put("state", instance.getState().getName());
-          resultMap.put("monitoring_state", instance.getMonitoring().getState());
-          resultMap.put("launchTime", instance.getLaunchTime());
-        }
-      }
-    }
-
-    request.setNextToken(response.getNextToken());
-
-    if (response.getNextToken() == null) {
-      done = true;
-    }
-  }
-
-  return resultMap;
-
-}
