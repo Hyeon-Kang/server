@@ -1,0 +1,135 @@
+Stackdriver Monitoring 문서
+https://cloud.google.com/monitoring/docs/?hl=ko
+
+Stackdriver Monitoring API 요금 안내 (월 1M 이하면 무료)
+https://console.cloud.google.com/apis/library/monitoring.googleapis.com?q=Stackdriver%20API&id=ba65e36c-eb60-4ce5-b702-c895cdbe0de8&project=bosh-261115&authuser=1
+
+API 및 참조
+
+gce_instance
+Display name: GCE VM Instance
+
+Description: A virtual machine instance hosted in Google Compute Engine (GCE).
+
+Labels:
+
+project_id: The identifier of the GCP project associated with this resource, such as "my-project".
+instance_id: The numeric VM instance identifier assigned by Compute Engine.
+zone: The Compute Engine zone in which the VM is running.
+
+
+gce_disk
+Display name: GCE Disk
+
+Description: A disk belonging to a Google Compute Engine (GCE) instance.
+
+Labels:
+
+project_id: The identifier of the GCP project associated with this resource, such as "my-project".
+disk_id: Unique identifier of the disk.
+zone: The Compute Engine zone where the disk resides
+
+
+
+
+
+gce_resource_policy
+Display name: GCE Resource Policy
+
+Description: A Google Compute Engine (GCE) resource policy.
+
+Labels:
+
+project_id: The identifier of the GCP project associated with this resource, such as "my-project".
+resource_policy_id: Unique identifier of the resource policy.
+region: GCE region of the resource policy.
+
+
+
+stackdriver rest api
+https://cloud.google.com/monitoring/api/ref_v3/rest/?hl=ko
+
+the-monitor/google-compute-engine/monitoring-google-compute-engine-performance.md github - Evan Mouzakitis
+https://github.com/DataDog/the-monitor/blob/master/google-compute-engine/monitoring-google-compute-engine-performance.md
+
+http://localhost:8080/startHttp?accessToken=ya29.Il-7BxMrprUooRPqTkTdl44V1H2vioEyQh4mbNoxszXplUMPvC3ootMYX2O7YiSZax9boNcnhwdydOcdQj9etDtKlowNL5l8J5KhT0D1scSoISjtaOPXwz0lPdOUAFdBKg
+https://www.googleapis.com/auth/monitoring
+자바 공식 지원 (의존성 여기서 가져가시오)
+https://cloud.google.com/monitoring/docs/reference/libraries?hl=ko#client-libraries-install-java
+https://github.com/GoogleCloudPlatform/java-docs-samples/blob/master/monitoring/cloud-client/src/main/java/com/example/monitoring/Snippets.java
+https://github.com/GoogleCloudPlatform/java-docs-samples/blob/master/monitoring/v3/src/main/java/com/example/UptimeSample.java
+
+자바스크립트
+https://github.com/GoogleCloudPlatform/monitoring-javascript-dashboard/blob/master/script/monitoring.js
+
+
+
+https://github.com/googleapis/java-monitoring/tree/master/google-cloud-monitoring/src/main/java/com/google/cloud/monitoring/v3
+
+
+
+스택 드라이버 모니터는 유료다 ㅠㅠ
+
+스택 드라이버 프로파일러로 전환
+https://cloud.google.com/profiler/docs/
+
+
+
+
+https://cloud.google.com/monitoring/custom-metrics/reading-metrics#monitoring_read_timeseries_fields-protocol
+
+
+https://cloud.google.com/trace/docs/reference/v1/rest/?authuser=1
+
+
+스택 드라이버 예상 청구액 확인 링크
+https://cloud.google.com/stackdriver/estimating-bills?hl=ko
+
+******
+how to get gcp instance memory info
+https://stackoverflow.com/questions/43991246/google-cloud-platform-how-to-monitor-memory-usage-of-vm-instances
+
+ https://cloud.google.com/monitoring/api/metrics_gcp#gcp-compute
+
+*** 스택오버 메모리 사용량
+https://stackoverflow.com/questions/43991246/google-cloud-platform-how-to-monitor-memory-usage-of-vm-instances
+
+
+https://medium.com/@jwlee98/gcp-stackdriver-profiler-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-dfdab3d70c4b
+
+
+compute engine example
+https://cloud.google.com/compute/docs/reference/rest/v1/?apix=true
+(find 'start')
+
+start describe
+https://cloud.google.com/compute/docs/reference/rest/v1/instances/start
+
+전제조건
+scope 설정
+"https://www.googleapis.com/auth/cloud-platform",
+"https://www.googleapis.com/auth/monitoring",
+"https://www.googleapis.com/auth/monitoring.read"
+service end point : https://monitoring.googleapis.com
+
+의존성 등록, iam 사용자, 계정키 등록, 환경변수 등록
+https://cloud.google.com/monitoring/docs/reference/libraries#client-libraries-install-java
+
+
+spring gcp
+https://docs.spring.io/spring-cloud-gcp/docs/1.0.0.BUILD-SNAPSHOT/reference/htmlsingle/
+
+gcp Oauth2 http REST
+https://developers.google.com/identity/protocols/OAuth2WebServer
+
+meta data
+https://monitoring.googleapis.com/$discovery/rest?version=v3
+
+https://cloud.google.com/compute/docs/reference/rest/v1/?apix=true
+https://cloud.google.com/compute/docs/reference/rest/v1/instances/start
+
+
+set GOOGLE_APPLICATION_CREDENTIALS=C:\bosh-87d278b3e060.json
+
+<iframe src="https://public.google.stackdriver.com/public/chart/3421321683892413337?drawMode=color&showLegend=true&theme=light "
+width="800" height="400" scrolling="no" seamless="seamless"></iframe>
