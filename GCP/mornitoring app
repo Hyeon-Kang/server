@@ -133,3 +133,67 @@ set GOOGLE_APPLICATION_CREDENTIALS=C:\bosh-87d278b3e060.json
 
 <iframe src="https://public.google.stackdriver.com/public/chart/3421321683892413337?drawMode=color&showLegend=true&theme=light "
 width="800" height="400" scrolling="no" seamless="seamless"></iframe>
+
+
+
+https://cloud.google.com/monitoring/api/ref_v3/rest/
+https://cloud.google.com/monitoring/api/ref_v3/rest/v1/projects.dashboards
+https://cloud.google.com/monitoring/dashboards/api-examples
+
+https://cloud.google.com/monitoring/api/ref_v3/rest/v1/projects.dashboards/get
+승인하려면 지정된 리소스에 대해 다음 Google IAM 권한이 필요합니다 name.
+monitoring.dashboards.get
+
+
+
+/* Google code 요청 URL 전체
+https://accounts.google.com/o/oauth2/v2/auth?
+   scope=https://www.googleapis.com/auth/compute https://www.googleapis.com/auth/cloud-platform& => 요청할 정보 2개 이상일때 한칸 띄운다
+   access_type=offline& => 서버가 refresh token 을 준다
+   include_granted_scopes=true&
+   state=state_parameter_passthrough_value&
+   redirect_uri=http://localhost:8080/oauth
+   response_type=code&
+   client_id=557741835606-g903kik2l4ts2kk41sphpkelfsaojcg1.apps.googleusercontent.com
+*/
+
+
+
+{
+  "name": "projects/557741835606/dashboards/13536963965008771465",
+  "displayName": "cpu_util",
+  "etag": "e7fea61fe34f02b0a1f82c5ae73f067b",
+  "gridLayout": {
+    "columns": "2",
+    "widgets": [
+      {
+        "title": "GCE VM Instance - CPU utilization, Memory utilization",
+        "xyChart": {
+          "dataSets": [
+            {
+              "timeSeriesQuery": {
+                "timeSeriesFilter": {
+                  "filter": "metric.type=\"compute.googleapis.com/instance/cpu/utilization\" resource.type=\"gce_instance\"",
+                  "aggregation": {
+                    "perSeriesAligner": "ALIGN_MEAN"
+                  }
+                },
+                "unitOverride": "ratio"
+              },
+              "plotType": "LINE",
+              "minAlignmentPeriod": "300s"
+            }
+          ],
+          "timeshiftDuration": "0s",
+          "yAxis": {
+            "label": "y1Axis",
+            "scale": "LINEAR"
+          },
+          "chartOptions": {
+            "mode": "COLOR"
+          }
+        }
+      }
+    ]
+  }
+}
