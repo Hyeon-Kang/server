@@ -157,7 +157,13 @@ https://accounts.google.com/o/oauth2/v2/auth?
    client_id=557741835606-g903kik2l4ts2kk41sphpkelfsaojcg1.apps.googleusercontent.com
 */
 
-
+https://monitoring.googleapis.com/v1/projects/bosh-261115/dashboards/13536963965008771465
+** dashboard id는 url에서 추출, 별도로 알려주지 않는다.
+** 이하 파라미터는 모두 header에 입력하여 postman으로 테스트 할 것
+- header tab
+key : value
+Authorization : Bearer ACCESS_TOKEN
+Accept : application/json
 
 {
   "name": "projects/557741835606/dashboards/13536963965008771465",
