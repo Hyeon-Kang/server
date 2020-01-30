@@ -4,6 +4,15 @@ Stackdriver와 cloud watch의 차이점
 
 scope는 공통적으로 cloud-platform, monitoring만 추가해주면 됨
 
+인스턴스의 세부 리소스 사용량을 보고 싶다면 인스턴스에 stack driver agent를 설치해야 함
+
+agent 설치 후 dashboard 의 share 항목을 통해 편하게 관제 iframe 도표를 얻어올 수 있다.
+* 단! 고정 사용자로 설정되므로 사용자에 따라 차트가 변하지 않는다....
+
+gcp는 모니터링 대쉬보드의 생성과 제거, 세부 옵션 설정은 프로그래밍 가능하도록 실패하였으나
+
+매트릭의 세부 파라미터 불러오기는 지원하지 않는 듯 하다....
+
 stackdriver rest api 리스트별 특징
 
 목록 링크 : https://cloud.google.com/monitoring/api/ref_v3/rest/
@@ -118,6 +127,13 @@ v3.services
 
 
 
+
+netdata를 이용한 방법은??
+https://www.deok.me/entry/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-NetData-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%ED%95%B4%EB%B3%B4%EC%9E%90
+bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+String ip_add = applicationProperties.getGcp().getIp_add();
+resultMap.put("ip_add", ip_add);
+
 NetData GPL v3
 
 상업적 이용 가능
@@ -143,3 +159,13 @@ https://docs.netdata.cloud/packaging/installer/
 
 GCP 메인 대시보드의 CPU사용량과 실제 인스턴스 CPU사용량은 다르다.
 https://serverfault.com/questions/952703/monitoring-reports-incorrect-cpu-usage-on-gcp
+
+``
+ip 값 자동획득
+ -> 리소스 값을 통해 획득이 가능할 것 같다.
+ get Instance network INFO [{id=3455538011992795450, creationTimestamp=2020-01-13T17:22:30.283-08:00, name=starlabs, description=, tags={items=[http-server, https-server], fingerprint=6smc4R4d39I=}, machineType=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/machineTypes/f1-micro, status=RUNNING, zone=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b, canIpForward=false, networkInterfaces=[{network=https://www.googleapis.com/compute/v1/projects/bosh-261115/global/networks/default, subnetwork=https://www.googleapis.com/compute/v1/projects/bosh-261115/regions/asia-northeast1/subnetworks/default, networkIP=10.146.0.9, name=nic0, accessConfigs=[{type=ONE_TO_ONE_NAT, name=External NAT, natIP=34.84.177.120, networkTier=PREMIUM, kind=compute#accessConfig}], fingerprint=SP6UdCpswNs=, kind=compute#networkInterface}], disks=[{type=PERSISTENT, mode=READ_WRITE, source=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/disks/starlabs, deviceName=starlabs, index=0, boot=true, autoDelete=true, licenses=[https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-9-stretch], interface=SCSI, guestOsFeatures=[{type=VIRTIO_SCSI_MULTIQUEUE}], diskSizeGb=10, kind=compute#attachedDisk}], metadata={fingerprint=EmZUPslKqBA=, kind=compute#metadata}, serviceAccounts=[{email=557741835606-compute@developer.gserviceaccount.com, scopes=[https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/logging.write, https://www.googleapis.com/auth/monitoring.write, https://www.googleapis.com/auth/servicecontrol, https://www.googleapis.com/auth/service.management.readonly, https://www.googleapis.com/auth/trace.append]}], selfLink=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/instances/starlabs, scheduling={onHostMaintenance=MIGRATE, automaticRestart=true, preemptible=false}, cpuPlatform=Intel Broadwell, labelFingerprint=42WmSpB8rSM=, startRestricted=false, deletionProtection=false, reservationAffinity={consumeReservationType=ANY_RESERVATION}, displayDevice={enableDisplay=false}, kind=compute#instance}]
+
+
+인스턴스 on/off 시 오류페이지 처리 해결
+
+에러 예외처리가 없음. 어떤 에러인지 로그를 찍어서 확인해보자.
