@@ -35,17 +35,91 @@ api test 링크 :
 https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors/list
 전달 파라미터 : projects/{project_id_or_number} -> projects/bosh-261115
 
+모든 매트릭의 메타데이터 리스트를 불러온다.
+Mbyte 단위 데이터, doc에서 예시로 보여주는 대량의 리소스 데이터가 이것이다.
+
 https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors/get
 
+전달 파라미터 :
+projects/bosh-261115/metricDescriptors/compute.googleapis.com/instance/cpu/utilization
 
-projects/bosh-261115/metricDescriptors/
-compute.googleapis.com/instance/cpu/utilization
+// disk 바이트 단위 읽기 항목 (생략)
+projects/bosh-261115/metricDescriptors/compute.googleapis.com/instance/disk/read_bytes_count
 
-모든 매트릭의 메타데이터 리스트를 불러온다.
-Mbyte 단위 데이터, doc에서 예시로 보여주는 리소스 데이터가 이것이다.
+CPU 사용량 metricDescriptors get 옵션을 요청할 경우
+다음 json 객체를 리턴받는다. 해당 객체는 dashboard의 측정 값이 아닌 속성 값을 가지고 있다.
+
+{
+  "name": "projects/bosh-261115/metricDescriptors/compute.googleapis.com/instance/cpu/utilization",
+  "labels": [
+    {
+      "key": "instance_name",
+      "description": "The name of the VM instance."
+    }
+  ],
+  "metricKind": "GAUGE",
+  "valueType": "DOUBLE",
+  "unit": "10^2.%",
+  "description": "Fractional utilization of allocated CPU on this instance. Values are typically numbers between 0.0 and 1.0 (but some machine types allow bursting above 1.0). Charts display the values as a percentage between 0% and 100% (or more). This metric is reported by the hypervisor for the VM and can differ from `agent.googleapis.com/cpu/utilization`, which is reported from inside the VM.",
+  "displayName": "CPU utilization",
+  "type": "compute.googleapis.com/instance/cpu/utilization",
+  "metadata": {
+    "launchStage": "GA",
+    "samplePeriod": "60s",
+    "ingestDelay": "240s"
+  },
+  "launchStage": "GA",
+  "monitoredResourceTypes": [
+    "gce_instance"
+  ]
+}
 
 
 v3.projects.monitoredResourceDescriptors
 
-api test 링크 :
+list api test 링크 :
 https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.monitoredResourceDescriptors/list?apix_params=%7B%22name%22%3A%22projects%2Fbosh-261115%22%7D
+
+list 옵션 전달 파라미터 :
+projects/bosh-261115
+
+모니터 대상 메트릭의 리소스 설명이 담긴 객체 리스트를 반환함 (필드와 필드에 대한 설명으로 구성, 측정 값 없음)
+
+get api test 링크 :
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.monitoredResourceDescriptors/get
+
+get 옵션 전달 파라미터 :
+projects/bosh-261115/monitoredResourceDescriptors/gce_instance
+
+list에서 반환한 객체중 gce_instance 타입이 갖는 데이터 필드와 설명이 담긴 객체 반환
+{
+  "type": "gce_instance",
+  "displayName": "GCE VM Instance",
+  "description": "A virtual machine instance hosted in Google Compute Engine (GCE).",
+  "labels": [
+    {
+      "key": "project_id",
+      "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+    },
+    {
+      "key": "instance_id",
+      "description": "The numeric VM instance identifier assigned by Compute Engine."
+    },
+    {
+      "key": "zone",
+      "description": "The Compute Engine zone in which the VM is running."
+    }
+  ],
+  "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_instance"
+}
+
+
+v3.services
+
+
+
+NetData GPL v3
+
+상업적 이용 가능
+내부 사용 시 코드 미공개 가능
+라이센스 추가 설명 : https://aroundck.tistory.com/887
