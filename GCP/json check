@@ -1,0 +1,2731 @@
+{
+  "resourceDescriptors": [
+    {
+      "type": "api",
+      "displayName": "Produced API",
+      "description": "An API provided by the producer.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The API service name, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "method",
+          "description": "The API method, such as \"disks.list\"."
+        },
+        {
+          "key": "version",
+          "description": "The API version, such as \"v1\"."
+        },
+        {
+          "key": "location",
+          "description": "The service specific notion of location. This can be the name of a zone, region, or \"global\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/api",
+      "launchStage": "BETA"
+    },
+    {
+      "type": "app_script_function",
+      "displayName": "Apps Script Function",
+      "description": "An Apps Script function.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "invocation_type",
+          "description": "The invocation type."
+        },
+        {
+          "key": "function_name",
+          "description": "The function name."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/app_script_function"
+    },
+    {
+      "type": "assistant_action",
+      "displayName": "Google Assistant Action",
+      "description": "An Action in a Google Assistant App.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "version_id",
+          "description": "Stringified version ID of the assistant agent."
+        },
+        {
+          "key": "action_id",
+          "description": "Action ID of the assistant agent."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/assistant_action"
+    },
+    {
+      "type": "audited_resource",
+      "displayName": "Audited Resource",
+      "description": "A Google Cloud resource that produces an audit log.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The name of the API service generating the audit log."
+        },
+        {
+          "key": "method",
+          "description": "The name of the API method generating the audit log."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/audited_resource"
+    },
+    {
+      "type": "autoscaler",
+      "displayName": "Autoscaler",
+      "description": "An autoscaler for a single managed instance group.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The zone or region for the autoscaler."
+        },
+        {
+          "key": "autoscaler_id",
+          "description": "The identifier for the autoscaler."
+        },
+        {
+          "key": "autoscaler_name",
+          "description": "The name of the autoscaler."
+        },
+        {
+          "key": "instance_group_manager_id",
+          "description": "The identifier for the managed instance group scaled by the given autoscaler."
+        },
+        {
+          "key": "instance_group_manager_name",
+          "description": "The name of the managed instance group scaled by the givenautoscaler."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/autoscaler"
+    },
+    {
+      "type": "aws_alb_load_balancer",
+      "displayName": "Amazon ALB Load Balancer",
+      "description": "A load balancer in Amazon ALB.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the load balancer. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the load balancer."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_alb_load_balancer"
+    },
+    {
+      "type": "aws_cloudfront_distribution",
+      "displayName": "Amazon CloudFront CDN",
+      "description": "A CloudFront content distribution network.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "distribution_id",
+          "description": "The CloudFront distribution identifier assigned by AWS."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the CloudFront distribution. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the CDN."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_cloudfront_distribution"
+    },
+    {
+      "type": "aws_dynamodb_table",
+      "displayName": "Amazon DynamoDB Table",
+      "description": "A table in Amazon DynamoDB.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "table",
+          "description": "The table name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the table. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the table."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_dynamodb_table"
+    },
+    {
+      "type": "aws_ebs_volume",
+      "displayName": "Amazon EBS Volume",
+      "description": "An Amazon EC2 Elastic Block Storage volume.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "volume_id",
+          "description": "The EBS volume identifier assigned by AWS."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the volume. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the volume."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_ebs_volume"
+    },
+    {
+      "type": "aws_ec2_instance",
+      "displayName": "Amazon EC2 Instance",
+      "description": "A VM instance in Amazon EC2.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "instance_id",
+          "description": "The VM instance identifier assigned by AWS."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the VM. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the VM."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_ec2_instance"
+    },
+    {
+      "type": "aws_elasticache_cluster",
+      "displayName": "Amazon Elasticache Cluster",
+      "description": "A cache cluster in Amazon Elasticache.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "cluster_id",
+          "description": "The cluster identifier."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the cluster. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the cluster."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_elasticache_cluster"
+    },
+    {
+      "type": "aws_elb_load_balancer",
+      "displayName": "Amazon ELB Load Balancer",
+      "description": "A load balancer in Amazon ELB.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the load balancer. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the load balancer."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_elb_load_balancer"
+    },
+    {
+      "type": "aws_emr_cluster",
+      "displayName": "Amazon EMR Cluster",
+      "description": "A cluster in Amazon EMR.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "cluster_id",
+          "description": "The cluster identifier."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the cluster. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the cluster."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_emr_cluster"
+    },
+    {
+      "type": "aws_kinesis_stream",
+      "displayName": "Amazon Kinesis Stream",
+      "description": "A stream in Amazon Kinesis.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "stream_name",
+          "description": "The stream name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the stream. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the stream."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_kinesis_stream"
+    },
+    {
+      "type": "aws_lambda_function",
+      "displayName": "Amazon Lambda Function",
+      "description": "A function in Amazon Lambda.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "function_name",
+          "description": "The function name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the function. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the function."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_lambda_function"
+    },
+    {
+      "type": "aws_rds_database",
+      "displayName": "Amazon RDS Database",
+      "description": "A database in Amazon RDS.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The database name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the database. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the database."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_rds_database"
+    },
+    {
+      "type": "aws_redshift_cluster",
+      "displayName": "Amazon Redshift Cluster",
+      "description": "A cluster in Amazon Redshift.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "cluster_identifier",
+          "description": "The cluster name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the cluster. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the cluster."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_redshift_cluster"
+    },
+    {
+      "type": "aws_s3_bucket",
+      "displayName": "Amazon S3 Bucket",
+      "description": "A bucket in Amazon S3.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "bucket_name",
+          "description": "The bucket name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the bucket. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the bucket."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_s3_bucket"
+    },
+    {
+      "type": "aws_ses",
+      "displayName": "Amazon SES Region",
+      "description": "An Amazon region with SES enabled.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the SES region."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_ses"
+    },
+    {
+      "type": "aws_sns_topic",
+      "displayName": "Amazon SNS Topic",
+      "description": "A topic in Amazon SNS.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "topic",
+          "description": "The topic name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the topic. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the topic."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_sns_topic"
+    },
+    {
+      "type": "aws_sqs_queue",
+      "displayName": "Amazon SQS Queue",
+      "description": "A queue in Amazon SQS.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project under which data is stored for the AWS account specified in the aws_account label, such as \"my-project\"."
+        },
+        {
+          "key": "queue",
+          "description": "The queue name."
+        },
+        {
+          "key": "region",
+          "description": "The AWS region for the queue. The format of this field is \"aws:{region}\", where supported values for {region} are listed at http://docs.aws.amazon.com/general/latest/gr/rande.html. "
+        },
+        {
+          "key": "aws_account",
+          "description": "The AWS account number for the queue."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/aws_sqs_queue"
+    },
+    {
+      "type": "bigquery_biengine_model",
+      "displayName": "BigQuery BI Engine Model",
+      "description": "BigQuery BI Engine Model.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Google Cloud location of the resource."
+        },
+        {
+          "key": "model_id",
+          "description": "The identifier of the BI model."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/bigquery_biengine_model"
+    },
+    {
+      "type": "bigquery_dataset",
+      "displayName": "BigQuery Dataset",
+      "description": "A dataset in BigQuery.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "dataset_id",
+          "description": "The name of the BigQuery dataset."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/bigquery_dataset"
+    },
+    {
+      "type": "bigquery_project",
+      "displayName": "BigQuery Project",
+      "description": "BigQuery Project.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "Location of the resource."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/bigquery_project"
+    },
+    {
+      "type": "bigtable_cluster",
+      "displayName": "Cloud Bigtable Cluster",
+      "description": "A cluster in Google Cloud Bigtable.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "instance",
+          "description": "The identifier for the instance."
+        },
+        {
+          "key": "cluster",
+          "description": "The identifier for the cluster."
+        },
+        {
+          "key": "zone",
+          "description": "The zone of the cluster."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/bigtable_cluster"
+    },
+    {
+      "type": "bigtable_table",
+      "displayName": "Cloud Bigtable Table",
+      "description": "A table in Google Cloud Bigtable.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "instance",
+          "description": "The identifier for the instance."
+        },
+        {
+          "key": "cluster",
+          "description": "The identifier for the cluster."
+        },
+        {
+          "key": "table",
+          "description": "The name of the table."
+        },
+        {
+          "key": "zone",
+          "description": "The zone of the table."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/bigtable_table"
+    },
+    {
+      "type": "build",
+      "displayName": "Cloud Build",
+      "description": "A build in Cloud Build.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "build_id",
+          "description": "The unique id of the build."
+        },
+        {
+          "key": "build_trigger_id",
+          "description": "The unique id of the build trigger."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/build"
+    },
+    {
+      "type": "cloud_composer_environment",
+      "displayName": "Cloud Composer Environment",
+      "description": "A Composer environment runs the managed Apache Airflow service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Cloud Composer location in which the environment is running."
+        },
+        {
+          "key": "environment_name",
+          "description": "The user-specified environment name."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_composer_environment"
+    },
+    {
+      "type": "cloud_composer_workflow",
+      "displayName": "Cloud Composer Workflow",
+      "description": "A Composer workflow runs a managed Apache Airflow workflow.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Cloud Composer location in which the workflow is running."
+        },
+        {
+          "key": "workflow_name",
+          "description": "The user-specified workflow name."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_composer_workflow"
+    },
+    {
+      "type": "cloud_dataproc_cluster",
+      "displayName": "Cloud Dataproc Cluster",
+      "description": "A Dataproc cluster with separate cluster name and id labels.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The user-specified cluster name."
+        },
+        {
+          "key": "cluster_uuid",
+          "description": "The generated cluster id."
+        },
+        {
+          "key": "region",
+          "description": "The Cloud Dataproc region in which the cluster is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_dataproc_cluster"
+    },
+    {
+      "type": "cloud_dataproc_job",
+      "displayName": "Cloud Dataproc Job",
+      "description": "A Dataproc job execution.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The Cloud Dataproc region to which the job was submitted."
+        },
+        {
+          "key": "job_id",
+          "description": "The user-specified job id."
+        },
+        {
+          "key": "job_uuid",
+          "description": "The generated job uuid."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_dataproc_job"
+    },
+    {
+      "type": "cloud_dlp_project",
+      "displayName": "Cloud Data Loss Prevention Project",
+      "description": "A Cloud Data Loss Prevention project.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Google Cloud location where the operation is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_dlp_project"
+    },
+    {
+      "type": "cloud_function",
+      "displayName": "Cloud Function",
+      "description": "A function in Google Cloud Functions.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "function_name",
+          "description": "The short function name."
+        },
+        {
+          "key": "region",
+          "description": "The region in which the function is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_function"
+    },
+    {
+      "type": "cloud_run_revision",
+      "displayName": "Cloud Run Revision",
+      "description": "A revision in Cloud Run.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service_name",
+          "description": "Name of the service."
+        },
+        {
+          "key": "revision_name",
+          "description": "Name of the monitored revision."
+        },
+        {
+          "key": "location",
+          "description": "Region where the service is running."
+        },
+        {
+          "key": "configuration_name",
+          "description": "Name of the configuration which created the monitored revision."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_run_revision"
+    },
+    {
+      "type": "cloud_scheduler_job",
+      "displayName": "Cloud Scheduler Job",
+      "description": "A Cloud Scheduler Job.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The region of the job."
+        },
+        {
+          "key": "job_id",
+          "description": "Identifier of the job."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_scheduler_job"
+    },
+    {
+      "type": "cloud_tasks_queue",
+      "displayName": "Cloud Tasks Queue",
+      "description": "A queue in Cloud Tasks.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "queue_id",
+          "description": "The name of the queue."
+        },
+        {
+          "key": "target_type",
+          "description": "The target type the queue is dispatching to."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloud_tasks_queue"
+    },
+    {
+      "type": "cloudiot_device",
+      "displayName": "Cloud IoT Device",
+      "description": "A Device in Google Cloud IoT.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "device_num_id",
+          "valueType": "INT64",
+          "description": "The unique numeric identifier of the device."
+        },
+        {
+          "key": "device_registry_id",
+          "description": "The user-defined string identifier of the device registry."
+        },
+        {
+          "key": "location",
+          "description": "The cloud region of the device registry."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloudiot_device"
+    },
+    {
+      "type": "cloudiot_device_registry",
+      "displayName": "Cloud IoT Registry",
+      "description": "A Device Registry in Google Cloud IoT.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "device_registry_id",
+          "description": "The user-defined string identifier of the device registry."
+        },
+        {
+          "key": "location",
+          "description": "The cloud region of the device registry."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloudiot_device_registry"
+    },
+    {
+      "type": "cloudml_job",
+      "displayName": "Cloud ML Job",
+      "description": "A Google Cloud ML job.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "job_id",
+          "description": "An immutable identifier for a job."
+        },
+        {
+          "key": "region",
+          "description": "Cloud ML region."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloudml_job"
+    },
+    {
+      "type": "cloudml_model_version",
+      "displayName": "Cloud ML Model Version",
+      "description": "A Google Cloud ML model version.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "model_id",
+          "description": "An immutable identifier for a model."
+        },
+        {
+          "key": "version_id",
+          "description": "An immutable identifier for a version."
+        },
+        {
+          "key": "region",
+          "description": "Cloud ML region."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloudml_model_version"
+    },
+    {
+      "type": "cloudsql_database",
+      "displayName": "Cloud SQL Database",
+      "description": "A database hosted in Google Cloud SQL.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "database_id",
+          "description": "The ID of the database."
+        },
+        {
+          "key": "region",
+          "description": "The Google Cloud SQL region in which the database is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/cloudsql_database"
+    },
+    {
+      "type": "consumed_api",
+      "displayName": "Consumed API",
+      "description": "An API used by customers.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The API service name, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "method",
+          "description": "The API method name, such as \"disks.list\"."
+        },
+        {
+          "key": "version",
+          "description": "The API version, such as \"v1\"."
+        },
+        {
+          "key": "credential_id",
+          "description": "The client credential ID, such as an API key ID or the OAuth client ID."
+        },
+        {
+          "key": "location",
+          "description": "The service specific notion of location. This can be a name of a zone or region. If a service does not have any notion of zones then \"global\" can be used."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/consumed_api"
+    },
+    {
+      "type": "consumer_quota",
+      "displayName": "Consumer Quota",
+      "description": "Quota used by consumers.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The name of the used service, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "location",
+          "description": "The location where the quota are consumed. It is a region for regional quota, or a zone for zonal quota, or \"global\" otherwise."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/consumer_quota"
+    },
+    {
+      "type": "csr_repository",
+      "displayName": "Cloud Source Repository",
+      "description": "A repository in Google Cloud Source Repositories.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The name of the repository."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/csr_repository"
+    },
+    {
+      "type": "dataflow_job",
+      "displayName": "Dataflow Job",
+      "description": "A Dataflow job.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "job_name",
+          "description": "The name of the job."
+        },
+        {
+          "key": "region",
+          "description": "The region for the job."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/dataflow_job"
+    },
+    {
+      "type": "datastore_request",
+      "displayName": "Datastore Request",
+      "description": "A request to Datastore from your App Engine application.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "module_id",
+          "description": "The module of the App Engine application that made this request."
+        },
+        {
+          "key": "version_id",
+          "description": "The major version id of the App Engine application that made this request."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/datastore_request"
+    },
+    {
+      "type": "dns_managed_zone",
+      "displayName": "Managed DNS Zone",
+      "description": "A ManagedZone in the Google Cloud DNS service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "zone_name",
+          "description": "The name of the ManagedZone."
+        },
+        {
+          "key": "location",
+          "description": "The location field is provided for compatibility with other GCP services. Its value is always set to 'global'"
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/dns_managed_zone"
+    },
+    {
+      "type": "dns_policy",
+      "displayName": "Cloud DNS Policy",
+      "description": "A Policy in the Google Cloud DNS service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "policy_name",
+          "description": "The name of the Policy."
+        },
+        {
+          "key": "location",
+          "description": "The location field is provided for compatibility with other GCP services. Its value is always set to 'global'"
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/dns_policy"
+    },
+    {
+      "type": "dns_query",
+      "displayName": "Cloud DNS Query",
+      "description": "A DNS query handled by the Google Cloud DNS service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "target_name",
+          "description": "The DNS name managed by Cloud DNS to be resolved (e.g. the zone name, policy name, internal domain name). External names will have the value \"external\""
+        },
+        {
+          "key": "location",
+          "description": "The GCP zone where the DNS request was received (e.g. us-east1, us-west1)."
+        },
+        {
+          "key": "target_type",
+          "description": "The target of the resolution of the DNS query (e.g. public-zone, private-zone, external)."
+        },
+        {
+          "key": "source_type",
+          "description": "Source of the query (e.g. gce-vm, internet)."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/dns_query"
+    },
+    {
+      "type": "filestore_instance",
+      "displayName": "Filestore Instance",
+      "description": "A Filestore instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "instance_name",
+          "description": "The name for the Filestore instance."
+        },
+        {
+          "key": "location",
+          "description": "The physical location of the instance."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/filestore_instance"
+    },
+    {
+      "type": "firebase_auth",
+      "displayName": "Firebase Auth Project",
+      "description": "A Firebase Auth Project.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/firebase_auth"
+    },
+    {
+      "type": "firebase_domain",
+      "displayName": "Firebase Hosting Domain",
+      "description": "A Firebase Hosting Domain.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "domain_name",
+          "description": "The name of the domain or host"
+        },
+        {
+          "key": "site_name",
+          "description": "The name of a hosted site."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/firebase_domain"
+    },
+    {
+      "type": "firebase_namespace",
+      "displayName": "Firebase Realtime Database",
+      "description": "A Firebase Realtime Database.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "table_name",
+          "description": "The name of the database."
+        },
+        {
+          "key": "location",
+          "description": "The location of the database."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/firebase_namespace"
+    },
+    {
+      "type": "firestore_instance",
+      "displayName": "Firestore Instance",
+      "description": "An instance of the Cloud Firestore database.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/firestore_instance"
+    },
+    {
+      "type": "gae_app",
+      "displayName": "GAE Application",
+      "description": "An application running in Google App Engine (GAE).",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "module_id",
+          "description": "The service/module name."
+        },
+        {
+          "key": "version_id",
+          "description": "The version name."
+        },
+        {
+          "key": "zone",
+          "description": "The GAE zone where the application is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gae_app"
+    },
+    {
+      "type": "gae_instance",
+      "displayName": "GAE Instance",
+      "description": "A single instance of a Google App Engine (GAE) version.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "module_id",
+          "description": "The service/module name."
+        },
+        {
+          "key": "version_id",
+          "description": "The version name."
+        },
+        {
+          "key": "instance_id",
+          "description": "The instance id."
+        },
+        {
+          "key": "location",
+          "description": "App Engine's external notion of location."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gae_instance"
+    },
+    {
+      "type": "gce_disk",
+      "displayName": "GCE Disk",
+      "description": "A disk belonging to a Google Compute Engine (GCE) instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "disk_id",
+          "description": "Unique identifier of the disk."
+        },
+        {
+          "key": "zone",
+          "description": "The Compute Engine zone where the disk resides."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_disk"
+    },
+    {
+      "type": "gce_instance",
+      "displayName": "GCE VM Instance",
+      "description": "A virtual machine instance hosted in Google Compute Engine (GCE).",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "instance_id",
+          "description": "The numeric VM instance identifier assigned by Compute Engine."
+        },
+        {
+          "key": "zone",
+          "description": "The Compute Engine zone in which the VM is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_instance"
+    },
+    {
+      "type": "gce_node_group",
+      "displayName": "GCE Node Group",
+      "description": "A Google Compute Engine (GCE) node group.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "node_group_id",
+          "description": "Unique identifier of the node group."
+        },
+        {
+          "key": "zone",
+          "description": "GCE zone of the node group."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_node_group"
+    },
+    {
+      "type": "gce_node_template",
+      "displayName": "GCE Node Template",
+      "description": "A Google Compute Engine (GCE) node template.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "node_template_id",
+          "description": "Unique identifier of the node template."
+        },
+        {
+          "key": "region",
+          "description": "GCE region of the node template."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_node_template"
+    },
+    {
+      "type": "gce_resource_policy",
+      "displayName": "GCE Resource Policy",
+      "description": "A Google Compute Engine (GCE) resource policy.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "resource_policy_id",
+          "description": "Unique identifier of the resource policy."
+        },
+        {
+          "key": "region",
+          "description": "GCE region of the resource policy."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_resource_policy"
+    },
+    {
+      "type": "gce_router",
+      "displayName": "Cloud Router",
+      "description": "A Cloud Router instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "router_id",
+          "description": "The router identifier."
+        },
+        {
+          "key": "region",
+          "description": "The region where the router instance is located."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_router"
+    },
+    {
+      "type": "gce_subnetwork",
+      "displayName": "GCE Subnetwork",
+      "description": "A Google Compute Engine (GCE) subnetwork.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "subnetwork_id",
+          "description": "The unique numerical identifier of the subnetwork."
+        },
+        {
+          "key": "subnetwork_name",
+          "description": "The unique user provided name of the subnetwork."
+        },
+        {
+          "key": "location",
+          "description": "Location of the resource."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_subnetwork"
+    },
+    {
+      "type": "gcs_bucket",
+      "displayName": "GCS Bucket",
+      "description": "A Google Cloud Storage (GCS) bucket.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "bucket_name",
+          "description": "An immutable name of the bucket."
+        },
+        {
+          "key": "location",
+          "description": "Location of the bucket."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gcs_bucket"
+    },
+    {
+      "type": "generic_node",
+      "displayName": "Generic Node",
+      "description": "A generic node identifies a machine or other computational resource for which no more specific resource type is applicable. The label values must uniquely identify the node.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The GCP or AWS region in which data about the resource is stored. For example, \"us-east1-a\" (GCP) or \"aws:us-east-1a\" (AWS)."
+        },
+        {
+          "key": "namespace",
+          "description": "A namespace identifier, such as a cluster name."
+        },
+        {
+          "key": "node_id",
+          "description": "A unique identifier for the node within the namespace, such as a hostname or IP address."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/generic_node"
+    },
+    {
+      "type": "generic_task",
+      "displayName": "Generic Task",
+      "description": "A generic task identifies an application process for which no more specific resource is applicable, such as a process scheduled by a custom orchestration system. The label values must uniquely identify the task.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The GCP or AWS region in which data about the resource is stored. For example, \"us-east1-a\" (GCP) or \"aws:us-east-1a\" (AWS)."
+        },
+        {
+          "key": "namespace",
+          "description": "A namespace identifier, such as a cluster name."
+        },
+        {
+          "key": "job",
+          "description": "An identifier for a grouping of related tasks, such as the name of a microservice or distributed batch job."
+        },
+        {
+          "key": "task_id",
+          "description": "A unique identifier for the task within the namespace and job, such as a replica index identifying the task within the job."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/generic_task"
+    },
+    {
+      "type": "gke_container",
+      "displayName": "GKE Container",
+      "description": "A Google Container Engine (GKE) container instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The name for the cluster the container is running in."
+        },
+        {
+          "key": "namespace_id",
+          "description": "The identifier for the cluster namespace the container is running in."
+        },
+        {
+          "key": "instance_id",
+          "description": "The identifier for the Compute Engine instance the container is running in."
+        },
+        {
+          "key": "pod_id",
+          "description": "The identifier for the pod the container is running in."
+        },
+        {
+          "key": "container_name",
+          "description": "The name of the container."
+        },
+        {
+          "key": "zone",
+          "description": "The zone for the instance."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/gke_container"
+    },
+    {
+      "type": "global",
+      "displayName": "Global",
+      "description": "A resource type that is not associated with any specific resource.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/global"
+    },
+    {
+      "type": "http_load_balancer_backend",
+      "displayName": "Google Cloud HTTP Load Balancer Backend",
+      "description": "A specific backend group of the Load Balancer.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "backend_service_name",
+          "description": "The user-specified backend service name."
+        },
+        {
+          "key": "backend_group",
+          "description": "The user-specified backend group name."
+        },
+        {
+          "key": "backend_zone",
+          "description": "The zone where the backend group is running."
+        },
+        {
+          "key": "location",
+          "description": "The location where the service is. It may be \\\"global\\\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/http_load_balancer_backend",
+      "launchStage": "EARLY_ACCESS"
+    },
+    {
+      "type": "https_lb_rule",
+      "displayName": "Google Cloud HTTP/S Load Balancing Rule",
+      "description": "A set of definitions for HTTP/S load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The region on which HTTP/S Load Balancer is applied, such as 'global' or 'us-central1'. Various other objects are defined per that locality."
+        },
+        {
+          "key": "url_map_name",
+          "description": "The name of the urlmap."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "target_proxy_name",
+          "description": "The name of the target HTTP/S proxy."
+        },
+        {
+          "key": "matched_url_path_rule",
+          "description": "The prefix of URL defined in urlmap tree. 'UNMATCHED' for the sink default rule."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target - service or bucket."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target. Can be either 'BACKEND_SERVICE' or 'BACKEND_BUCKET'."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend group. Can be a special value if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend group. Can be 'INSTANCE_GROUP', 'NETWORK_ENDPOINT_GROUP', or a special value if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone-name or region-name) of the backend group. Can be a special value if the backend wasn't assigned. Can be empty if there is no response from the backend."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group. Can be 'ZONE', 'REGION' or other special value in case the backend wasn't assigned."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/https_lb_rule"
+    },
+    {
+      "type": "identitytoolkit_project",
+      "displayName": "Identity Toolkit Project",
+      "description": "An Identity Toolkit project.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/identitytoolkit_project"
+    },
+    {
+      "type": "identitytoolkit_tenant",
+      "displayName": "Identity Toolkit Tenant",
+      "description": "An Identity Toolkit tenant.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "tenant_name",
+          "description": "The name of the tenant."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/identitytoolkit_tenant"
+    },
+    {
+      "type": "instance_group",
+      "displayName": "Instance Group",
+      "description": "A group of VM instances.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The zone or region of the instance group."
+        },
+        {
+          "key": "instance_group_id",
+          "description": "The identifier of the instance group."
+        },
+        {
+          "key": "instance_group_name",
+          "description": "The name of the instance group."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/instance_group"
+    },
+    {
+      "type": "interconnect",
+      "displayName": "Interconnect",
+      "description": "A physical connection to Google at a datacenter.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "interconnect",
+          "description": "The unique identifier of the interconnect."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/interconnect"
+    },
+    {
+      "type": "interconnect_attachment",
+      "displayName": "Interconnect Attachment",
+      "description": "A VLAN attaching a cloud network to an Interconnect.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "attachment",
+          "description": "The unique identifier of the attachment."
+        },
+        {
+          "key": "interconnect",
+          "description": "The unique identifier of the interconnect that the attachment connects to."
+        },
+        {
+          "key": "region",
+          "description": "The cloud region that the attachment connects to."
+        },
+        {
+          "key": "interconnect_project",
+          "description": "The name of the project that owns interconnect that the attachment connects to."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/interconnect_attachment"
+    },
+    {
+      "type": "internal_http_lb_rule",
+      "displayName": "Internal HTTP/S Load Balancing Rule",
+      "description": "A resource descriptor for Internal HTTP/S load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "network_name",
+          "description": "The name of the customer network in which the Load Balancer resides."
+        },
+        {
+          "key": "region",
+          "description": "The region under which the Load Balancer is defined."
+        },
+        {
+          "key": "url_map_name",
+          "description": "The name of the urlmap."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "target_proxy_name",
+          "description": "The name of the target HTTP/S proxy."
+        },
+        {
+          "key": "matched_url_path_rule",
+          "description": "The prefix of URL defined in urlmap tree. 'UNMATCHED' for the sink default rule."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target or service."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target. Can be 'BACKEND_SERVICE', or 'UNKNOWN' if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend group. Can be '' if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend group. Can be 'INSTANCE_GROUP', 'NETWORK_ENDPOINT_GROUP', or 'UNKNOWN' if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (\u003czone-name\u003e or \u003cregion-name\u003e) of the backend group. Can be 'UNKNOWN' if the backend wasn't assigned."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group. Can be 'ZONE', 'REGION', or 'UNKNOWN' in case the backend wasn't assigned."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/internal_http_lb_rule"
+    },
+    {
+      "type": "internal_tcp_lb_rule",
+      "displayName": "Google Cloud TCP Load Balancer (Internal) Rule",
+      "description": "A set of definitions for internal TCP load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The region of the backend target."
+        },
+        {
+          "key": "network_name",
+          "description": "The name of the virtual network."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target that handled the connection. Currently it's 'BACKEND_SERVICE'."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target that handled the connection (equivalent to 'load_balancer_name')."
+        },
+        {
+          "key": "load_balancer_name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend group that handled the connection. Currently it's 'INSTANCE_GROUP'."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone or region) of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group that handled the connection. Can be either 'ZONE' or 'REGION'."
+        },
+        {
+          "key": "backend_subnetwork_name",
+          "description": "The name of the subnetwork of the backend."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/internal_tcp_lb_rule"
+    },
+    {
+      "type": "internal_udp_lb_rule",
+      "displayName": "Google Cloud UDP Load Balancer (Internal) Rule",
+      "description": "A set of definitions for internal UDP load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The region of the backend target."
+        },
+        {
+          "key": "network_name",
+          "description": "The name of the virtual network."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target that handled the connection. Currently it's 'BACKEND_SERVICE'."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target that handled the connection (equivalent to 'load_balancer_name')."
+        },
+        {
+          "key": "load_balancer_name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend group that handled the connection. Currently it's 'INSTANCE_GROUP'."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone or region) of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group that handled the connection. Can be either 'ZONE' or 'REGION'."
+        },
+        {
+          "key": "backend_subnetwork_name",
+          "description": "The name of the subnetwork of the backend."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/internal_udp_lb_rule"
+    },
+    {
+      "type": "k8s_cluster",
+      "displayName": "Kubernetes Cluster",
+      "description": "A Kubernetes cluster. It contains Kubernetes audit logs from the cluster.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The physical location of the cluster."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The name of the cluster."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/k8s_cluster"
+    },
+    {
+      "type": "k8s_container",
+      "displayName": "Kubernetes Container",
+      "description": "A Kubernetes container instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The physical location of the cluster that contains the container."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The name of the cluster that the container is running in."
+        },
+        {
+          "key": "namespace_name",
+          "description": "The name of the namespace that the container is running in."
+        },
+        {
+          "key": "pod_name",
+          "description": "The name of the pod that the container is running in."
+        },
+        {
+          "key": "container_name",
+          "description": "The name of the container."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/k8s_container"
+    },
+    {
+      "type": "k8s_node",
+      "displayName": "Kubernetes Node",
+      "description": "A Kubernetes node instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The physical location of the cluster that contains the node."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The name of the cluster that the node is a part of."
+        },
+        {
+          "key": "node_name",
+          "description": "The name of the node."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/k8s_node"
+    },
+    {
+      "type": "k8s_pod",
+      "displayName": "Kubernetes Pod",
+      "description": "A Kubernetes pod instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The physical location of the cluster that contains the pod."
+        },
+        {
+          "key": "cluster_name",
+          "description": "The name of the cluster that the pod is running in."
+        },
+        {
+          "key": "namespace_name",
+          "description": "The name of the namespace that the pod is running in."
+        },
+        {
+          "key": "pod_name",
+          "description": "The name of the pod."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/k8s_pod"
+    },
+    {
+      "type": "knative_broker",
+      "displayName": "Cloud Run for Anthos Broker",
+      "description": "A Knative broker in Cloud Run for Anthos.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "Location where the broker is running."
+        },
+        {
+          "key": "cluster_name",
+          "description": "Name of the GKE cluster."
+        },
+        {
+          "key": "namespace_name",
+          "description": "Name of the namespace."
+        },
+        {
+          "key": "broker_name",
+          "description": "Name of the broker."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/knative_broker"
+    },
+    {
+      "type": "knative_revision",
+      "displayName": "Cloud Run for Anthos Revision",
+      "description": "A Knative revision in Cloud Run for Anthos.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service_name",
+          "description": "Name of the service."
+        },
+        {
+          "key": "revision_name",
+          "description": "Name of the monitored revision."
+        },
+        {
+          "key": "location",
+          "description": "Location where the service is running."
+        },
+        {
+          "key": "configuration_name",
+          "description": "Name of the configuration which created the monitored revision."
+        },
+        {
+          "key": "cluster_name",
+          "description": "Name of the GKE cluster."
+        },
+        {
+          "key": "namespace_name",
+          "description": "Name of the namespace."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/knative_revision"
+    },
+    {
+      "type": "knative_trigger",
+      "displayName": "Cloud Run for Anthos Trigger",
+      "description": "A Knative trigger in Cloud Run for Anthos.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "Location where the broker is running."
+        },
+        {
+          "key": "cluster_name",
+          "description": "Name of the GKE cluster."
+        },
+        {
+          "key": "namespace_name",
+          "description": "Name of the namespace."
+        },
+        {
+          "key": "broker_name",
+          "description": "Name of the broker the trigger is associated with."
+        },
+        {
+          "key": "trigger_name",
+          "description": "Name of the trigger."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/knative_trigger"
+    },
+    {
+      "type": "l7_lb_rule",
+      "displayName": "Google Cloud HTTP Load Balancing Rule (Logs-based Metrics)",
+      "description": "A set of definitions for HTTP load balancing behavior used for logs-based metrics.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "target_proxy_name",
+          "description": "The name of the target proxy."
+        },
+        {
+          "key": "target_proxy_type",
+          "description": "The type of the target proxy."
+        },
+        {
+          "key": "url_map_name",
+          "description": "The name of the urlmap."
+        },
+        {
+          "key": "matched_url_path_rule",
+          "description": "The prefix of URL defined in urlmap tree."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend."
+        },
+        {
+          "key": "instance_group_name",
+          "description": "The name of the instance group."
+        },
+        {
+          "key": "backend_zone",
+          "description": "The zone of the instance group."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/l7_lb_rule"
+    },
+    {
+      "type": "logging_exclusion",
+      "displayName": "Log Exclusion",
+      "description": "An exclusion in Stackdriver Logging.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The unique name of the exclusion."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/logging_exclusion"
+    },
+    {
+      "type": "logging_sink",
+      "displayName": "Logging export sink",
+      "description": "An export sink in Stackdriver Logging.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The unique name of the sink."
+        },
+        {
+          "key": "destination",
+          "description": "The destination of the sink."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/logging_sink"
+    },
+    {
+      "type": "metric",
+      "displayName": "Metric Type",
+      "description": "A Stackdriver Monitoring metric type.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "name",
+          "description": "The name of the metric type, such as \"logging.googleapis.com/my-metric-name\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/metric"
+    },
+    {
+      "type": "microsoft_ad_domain",
+      "displayName": "Microsoft Active Directory Domain",
+      "description": "A Microsoft Active Directory Domain hosted and managed by Google Cloud Platform",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "fqdn",
+          "description": "The fully qualified domain name of the Active Directory Domain"
+        },
+        {
+          "key": "location",
+          "description": "The location where Active Directory Domain resources (like VMs, etc.) are present."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/microsoft_ad_domain"
+    },
+    {
+      "type": "nat_gateway",
+      "displayName": "Cloud NAT Gateway",
+      "description": "A Cloud NAT Gateway.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The region where the NAT gateway is located."
+        },
+        {
+          "key": "router_id",
+          "description": "Identifier of the router under which the NAT gateway is defined."
+        },
+        {
+          "key": "gateway_name",
+          "description": "The name of the NAT gateway."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/nat_gateway"
+    },
+    {
+      "type": "netapp_cloud_volume",
+      "displayName": "NetApp Cloud Volume",
+      "description": "A specific volume in the NetApp Cloud Volumes service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Google Cloud location in which the NetApp Cloud Volume instance is running."
+        },
+        {
+          "key": "volume_id",
+          "description": "The ID of a NetApp Volume."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/netapp_cloud_volume"
+    },
+    {
+      "type": "network_security_policy",
+      "displayName": "Network Security Policy",
+      "description": "A network security policy.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "policy_name",
+          "description": "The unique user provided name of the security policy."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/network_security_policy"
+    },
+    {
+      "type": "produced_api",
+      "displayName": "Produced API with consumer dimension",
+      "description": "An API provided by the producer with consumer dimension.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The API service name, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "method",
+          "description": "The API method, such as \"disks.list\"."
+        },
+        {
+          "key": "version",
+          "description": "The API version, such as \"v1\"."
+        },
+        {
+          "key": "location",
+          "description": "The service specific notion of location. This can be the name of a zone, region, or \"global\"."
+        },
+        {
+          "key": "consumer_id",
+          "description": "This is the ID of a consumer project that's made a request to the API, such as project number \"12345\""
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/produced_api",
+      "launchStage": "ALPHA"
+    },
+    {
+      "type": "producer_quota",
+      "displayName": "Producer Quota",
+      "description": "Quota provided by the service producer.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The name of the service, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "location",
+          "description": "The location where the quota are consumed. It is a region for regional quota, or a zone for zonal quota, or \"global\" otherwise."
+        },
+        {
+          "key": "consumer_resource_node",
+          "description": "The resource node consuming quota. For projects, it is the project number. For other resource nodes like folders and organzations, it must have type prefix, such as \"organizations/12345\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/producer_quota"
+    },
+    {
+      "type": "pubsub_snapshot",
+      "displayName": "Cloud Pub/Sub Snapshot",
+      "description": "A snapshot in Google Cloud Pub/Sub.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "snapshot_id",
+          "description": "The identifier of the snapshot, such as \"my-snapshot\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/pubsub_snapshot"
+    },
+    {
+      "type": "pubsub_subscription",
+      "displayName": "Cloud Pub/Sub Subscription",
+      "description": "A subscription in Google Cloud Pub/Sub.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "subscription_id",
+          "description": "The identifier of the subscription, such as \"my-subscription\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/pubsub_subscription"
+    },
+    {
+      "type": "pubsub_topic",
+      "displayName": "Cloud Pub/Sub Topic",
+      "description": "A topic in Google Cloud Pub/Sub.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "topic_id",
+          "description": "The identifier of the topic, such as \"my-topic\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/pubsub_topic"
+    },
+    {
+      "type": "recommender",
+      "displayName": "Recommender",
+      "description": "A Recommender represents a grouping of similar recommendations.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "recommender_id",
+          "description": "The name of the recommender."
+        },
+        {
+          "key": "location",
+          "description": "The location of the recommendation."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/recommender"
+    },
+    {
+      "type": "redis_instance",
+      "displayName": "Cloud Memorystore Redis Instance",
+      "description": "A Redis instance hosted on Google Cloud Memorystore.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The Google Cloud region in which the managed instance is running."
+        },
+        {
+          "key": "instance_id",
+          "description": "The ID of the managed instance."
+        },
+        {
+          "key": "node_id",
+          "description": "The ID of a Redis node within the managed instance."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/redis_instance"
+    },
+    {
+      "type": "remotebuild_instance",
+      "displayName": "Remote Build Execution Instance",
+      "description": "A specific instance for the Remote Build Execution service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The Cloud zone of the instance."
+        },
+        {
+          "key": "instance_id",
+          "description": "The specific instance within the Remote Build Execution consumer project."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/remotebuild_instance"
+    },
+    {
+      "type": "spanner_instance",
+      "displayName": "Cloud Spanner Instance",
+      "description": "A Cloud Spanner instance.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "instance_id",
+          "description": "An immutable identifier for an instance."
+        },
+        {
+          "key": "location",
+          "description": "Cloud Spanner region."
+        },
+        {
+          "key": "instance_config",
+          "description": "Instance config for the instance."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/spanner_instance"
+    },
+    {
+      "type": "tcp_lb_rule",
+      "displayName": "Google Cloud Network TCP Load Balancer Rule",
+      "description": "A set of definitions for network TCP load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "load_balancer_name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "region",
+          "description": "The Google Cloud Platform region of the backends instance that connected to network load balancing forwarding rule."
+        },
+        {
+          "key": "network_name",
+          "description": "The network from which the instance that connected to network load balancing sends traffic."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target that handled the connection."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target that handled the connection."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "forwarding_rule_network_tier",
+          "description": "The network tier of the forwarding rule."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend that handled the connection."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend that handled the connection."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone or region) of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group that handled the connection. Can be either 'ZONE' or 'REGION'."
+        },
+        {
+          "key": "backend_failover_configuration",
+          "description": "The configured state of the backend group or the target pool that handled the connection."
+        },
+        {
+          "key": "backend_subnetwork_name",
+          "description": "The name of the subnetwork of the instance that handled the connection."
+        },
+        {
+          "key": "endpoint_zone",
+          "description": "The zone of the endpoint (GCE/GKE instance) that handled the connection."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/tcp_lb_rule",
+      "launchStage": "ALPHA"
+    },
+    {
+      "type": "tcp_ssl_proxy_rule",
+      "displayName": "Google Cloud TCP/SSL Proxy Rule",
+      "description": "A set of definitions for TCP/SSL proxy behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "region",
+          "description": "The region on which TCP/SSL proxy is applied, such as 'global' or 'us-central1'. Various other objects are defined per that locality."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target ('backend service', equivalent to 'proxy name')."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target. Can only be 'BACKEND_SERVICE' currently."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "target_proxy_name",
+          "description": "The name of the target TCP/SSL proxy."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend group."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend group. Can be 'INSTANCE_GROUP' or 'NETWORK_ENDPOINT_GROUP'."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone or region) of the backend group."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group. Can be either 'ZONE' or 'REGION'."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/tcp_ssl_proxy_rule"
+    },
+    {
+      "type": "threat_detector",
+      "displayName": "Threat Detector",
+      "description": "A detector in the Threat Detection service.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "detector_name",
+          "description": "The specific detector that triggered the alert."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/threat_detector"
+    },
+    {
+      "type": "tpu_worker",
+      "displayName": "TPU Worker",
+      "description": "A TPU Worker executing Tensorflow work for a TPU Node.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "zone",
+          "description": "The Google Cloud zone in which the TPU Worker is running."
+        },
+        {
+          "key": "node_id",
+          "description": "The ID of the TPU Node."
+        },
+        {
+          "key": "worker_id",
+          "description": "The ID of a TPU Worker within the TPU Node."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/tpu_worker"
+    },
+    {
+      "type": "transfer_service_agent",
+      "displayName": "Transfer Service Agent",
+      "description": "An instance of the agent application that Transfer Service uses to transfer data into Google Cloud.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "agent_id",
+          "description": "The unique identifier of the agent within the GCP project."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/transfer_service_agent",
+      "launchStage": "BETA"
+    },
+    {
+      "type": "udp_lb_rule",
+      "displayName": "Google Cloud Network UDP Load Balancer Rule",
+      "description": "A set of definitions for network UDP load balancing behavior.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "load_balancer_name",
+          "description": "The name of the load balancer."
+        },
+        {
+          "key": "region",
+          "description": "The Google Cloud Platform region of the backends instance that connected to network load balancing forwarding rule."
+        },
+        {
+          "key": "network_name",
+          "description": "The network from which the instance that connected to network load balancing sends traffic."
+        },
+        {
+          "key": "backend_target_type",
+          "description": "The type of the backend target that handled the connection."
+        },
+        {
+          "key": "backend_target_name",
+          "description": "The name of the backend target that handled the connection."
+        },
+        {
+          "key": "forwarding_rule_name",
+          "description": "The name of the forwarding rule."
+        },
+        {
+          "key": "forwarding_rule_network_tier",
+          "description": "The network tier of the forwarding rule."
+        },
+        {
+          "key": "backend_name",
+          "description": "The name of the backend that handled the connection."
+        },
+        {
+          "key": "backend_type",
+          "description": "The type of the backend that handled the connection."
+        },
+        {
+          "key": "backend_scope",
+          "description": "The scope (zone or region) of the backend group that handled the connection."
+        },
+        {
+          "key": "backend_scope_type",
+          "description": "The type of the scope of the backend group that handled the connection. Can be either 'ZONE' or 'REGION'."
+        },
+        {
+          "key": "backend_failover_configuration",
+          "description": "The configured state of the backend group or the target pool that handled the connection."
+        },
+        {
+          "key": "backend_subnetwork_name",
+          "description": "The name of the subnetwork of the instance that handled the connection."
+        },
+        {
+          "key": "endpoint_zone",
+          "description": "The zone of the endpoint (GCE/GKE instance) that handled the connection."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/udp_lb_rule",
+      "launchStage": "ALPHA"
+    },
+    {
+      "type": "uptime_url",
+      "displayName": "Uptime Check URL",
+      "description": "An Uptime Monitoring check against a custom URL.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "host",
+          "description": "The hostname or IP address of the check."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/uptime_url"
+    },
+    {
+      "type": "vpc_access_connector",
+      "displayName": "VPC Access Connector",
+      "description": "A connector that can communicate with devices within a VPC.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "location",
+          "description": "The region the connector is located in."
+        },
+        {
+          "key": "connector_name",
+          "description": "The name of the connector."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/vpc_access_connector"
+    },
+    {
+      "type": "vpn_gateway",
+      "displayName": "Cloud VPN Gateway",
+      "description": "A Cloud VPN gateway.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "gateway_id",
+          "description": "The VPN Gateway ID."
+        },
+        {
+          "key": "region",
+          "description": "The region in which the VPN Gateway is running."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/vpn_gateway"
+    }
+  ]
+}

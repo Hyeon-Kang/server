@@ -1,0 +1,36 @@
+{
+  "type": "gce_instance",
+  "displayName": "GCE VM Instance",
+  "description": "A virtual machine instance hosted in Google Compute Engine (GCE).",
+  "labels": [
+    {
+      "key": "project_id",
+      "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+    },
+    {
+      "key": "instance_id",
+      "description": "The numeric VM instance identifier assigned by Compute Engine."
+    },
+    {
+      "key": "zone",
+      "description": "The Compute Engine zone in which the VM is running."
+    }
+  ],
+  "name": "projects/bosh-261115/monitoredResourceDescriptors/gce_instance"
+}
+
+
+REST Resource: v3.projects.alertPolicies -> 경고 정책 설정
+REST Resource: v3.projects.groups -> 그룹 관리
+REST Resource: v3.projects.groups.members -> 그룹 멤버 관리
+REST Resource: v3.projects.metricDescriptors -> 전체 dashbord(metric) 관리, 값 불러오기 불가능, 메트릭 metadata만 설정 가능
+                                                                  DB로 따지면 스키마 관리
+REST Resource: v3.projects.monitoredResourceDescriptors -> 세부 dashboard 관리, 위의 경우 전체 리스트를 관리한다면 resourceDescriptors는
+                                                            개별 속성 관리, 즉 데이터를 얻어올 수 있지는 않다.
+REST Resource: v3.projects.notificationChannelDescriptors
+REST Resource: v3.projects.notificationChannels
+REST Resource: v3.projects.timeSeries
+REST Resource: v3.projects.uptimeCheckConfigs
+REST Resource: v3.services -> 별도의 서비스? 무슨 서비스를 의미하는지 모르겠으나 return 값이 dashboard 관련은 아니었음
+REST Resource: v3.services.serviceLevelObjectives -> 상기 내용과 동일
+REST Resource: v3.uptimeCheckIps

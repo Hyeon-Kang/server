@@ -1,0 +1,51 @@
+Stackdriver와 cloud watch의 차이점
+
+목록 링크 : https://cloud.google.com/docs/compare/aws/monitoring
+
+scope는 공통적으로 cloud-platform, monitoring만 추가해주면 됨
+
+stackdriver rest api 리스트별 특징
+
+목록 링크 : https://cloud.google.com/monitoring/api/ref_v3/rest/
+
+REST Resource: v3.projects.alertPolicies -> 경고 정책 설정
+REST Resource: v3.projects.groups -> 그룹 관리
+REST Resource: v3.projects.groups.members -> 그룹 멤버 관리
+REST Resource: v3.projects.metricDescriptors -> 전체 dashbord(metric) 관리, 값 불러오기 불가능, 메트릭 metadata만 설정 가능
+                                                                  DB로 따지면 스키마 관리
+REST Resource: v3.projects.monitoredResourceDescriptors -> 세부 dashboard 관리, 위의 경우 전체 리스트를 관리한다면 resourceDescriptors는
+                                                            개별 속성 관리, 즉 데이터를 얻어올 수 있지는 않다.
+REST Resource: v3.projects.notificationChannelDescriptors
+REST Resource: v3.projects.notificationChannels
+REST Resource: v3.projects.timeSeries
+REST Resource: v3.projects.uptimeCheckConfigs
+REST Resource: v3.services -> 별도의 서비스? 무슨 서비스를 의미하는지 모르겠으나 return 값이 dashboard 관련은 아니었음
+REST Resource: v3.services.serviceLevelObjectives -> 상기 내용과 동일
+REST Resource: v3.uptimeCheckIps
+
+가장 연관성이 커 보이는 api들 테스트 진행
+v3.projects.metricDescriptors
+v3.projects.monitoredResourceDescriptors
+v3.services
+
+
+먼저 v3.projects.metricDescriptors
+
+api test 링크 :
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors/list
+전달 파라미터 : projects/{project_id_or_number} -> projects/bosh-261115
+
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors/get
+
+
+projects/bosh-261115/metricDescriptors/
+compute.googleapis.com/instance/cpu/utilization
+
+모든 매트릭의 메타데이터 리스트를 불러온다.
+Mbyte 단위 데이터, doc에서 예시로 보여주는 리소스 데이터가 이것이다.
+
+
+v3.projects.monitoredResourceDescriptors
+
+api test 링크 :
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.monitoredResourceDescriptors/list?apix_params=%7B%22name%22%3A%22projects%2Fbosh-261115%22%7D

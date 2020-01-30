@@ -203,3 +203,43 @@ Accept : application/json
     ]
   }
 }
+
+
+****
+REST 리소스 : projects.metricDescriptors
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors
+
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.metricDescriptors/get?apix_params=%7B%22name%22%3A%22projects%2Fbosh-261115%2FmetricDescriptors%2Fcompute.googleapis.com%2Finstance%2Fcpu%2Futilization%22%7D
+
+넣은 name 인자 : projects/bosh-261115/metricDescriptors/compute.googleapis.com/instance/cpu/utilization
+
+이하는 200 상태에서 반환받은 json 데이터
+
+해당 매트릭의 속성을 받아온 듯 하다.
+{
+  "name": "projects/bosh-261115/metricDescriptors/compute.googleapis.com/instance/cpu/utilization",
+  "labels": [
+    {
+      "key": "instance_name",
+      "description": "The name of the VM instance."
+    }
+  ],
+  "metricKind": "GAUGE",
+  "valueType": "DOUBLE",
+  "unit": "10^2.%",
+  "description": "Fractional utilization of allocated CPU on this instance. Values are typically numbers between 0.0 and 1.0 (but some machine types allow bursting above 1.0). Charts display the values as a percentage between 0% and 100% (or more). This metric is reported by the hypervisor for the VM and can differ from `agent.googleapis.com/cpu/utilization`, which is reported from inside the VM.",
+  "displayName": "CPU utilization",
+  "type": "compute.googleapis.com/instance/cpu/utilization",
+  "metadata": {
+    "launchStage": "GA",
+    "samplePeriod": "60s",
+    "ingestDelay": "240s"
+  },
+  "launchStage": "GA",
+  "monitoredResourceTypes": [
+    "gce_instance"
+  ]
+}
+
+stackdriver와 cloud watch 비교
+https://cloud.google.com/docs/compare/aws/monitoring
