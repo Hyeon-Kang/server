@@ -1,0 +1,27 @@
+[
+  {id=3455538011992795450,
+    creationTimestamp=2020-01-13T17:22:30.283-08:00,
+    name=starlabs, description=,
+    tags=
+    {
+      items=[http-server, https-server],
+      fingerprint=6smc4R4d39I=
+    },
+    machineType=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/machineTypes/f1-micro,
+    status=RUNNING,
+    zone=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b,
+    canIpForward=false,
+    networkInterfaces=[
+      {
+          network=https://www.googleapis.com/compute/v1/projects/bosh-261115/global/networks/default,
+          subnetwork=https://www.googleapis.com/compute/v1/projects/bosh-261115/regions/asia-northeast1/subnetworks/default,
+          networkIP=10.146.0.9, name=nic0, accessConfigs=[
+            {type=ONE_TO_ONE_NAT, name=External NAT,
+***          natIP=34.84.177.120,
+
+
+
+              networkTier=PREMIUM, kind=compute#accessConfig}], fingerprint=SP6UdCpswNs=, kind=compute#networkInterface}], disks=[{type=PERSISTENT, mode=READ_WRITE, source=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/disks/starlabs, deviceName=starlabs, index=0, boot=true, autoDelete=true, licenses=[https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-9-stretch], interface=SCSI, guestOsFeatures=[{type=VIRTIO_SCSI_MULTIQUEUE}], diskSizeGb=10, kind=compute#attachedDisk}], metadata={fingerprint=EmZUPslKqBA=, kind=compute#metadata}, serviceAccounts=[{email=557741835606-compute@developer.gserviceaccount.com, scopes=[https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/logging.write, https://www.googleapis.com/auth/monitoring.write, https://www.googleapis.com/auth/servicecontrol, https://www.googleapis.com/auth/service.management.readonly, https://www.googleapis.com/auth/trace.append]}], selfLink=https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/instances/starlabs, scheduling={onHostMaintenance=MIGRATE, automaticRestart=true, preemptible=false}, cpuPlatform=Intel Broadwell, labelFingerprint=42WmSpB8rSM=, startRestricted=false, deletionProtection=false, reservationAffinity={consumeReservationType=ANY_RESERVATION}, displayDevice={enableDisplay=false}, kind=compute#instance}]
+
+rest api json 받아서 parsing
+https://a1010100z.tistory.com/entry/Spring-RESTFul-API-GET%EC%9C%BC%EB%A1%9C-JSON-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EC%95%84%EC%99%80-%ED%8C%8C%EC%8B%B1%EA%B9%8C%EC%A7%80JAVA-Spring-Kakao-%EB%A1%9C%EC%BB%AC-API-%EC%A1%B8%EC%97%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B83
