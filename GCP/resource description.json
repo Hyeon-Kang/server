@@ -25,3 +25,142 @@
 
 rest api json 받아서 parsing
 https://a1010100z.tistory.com/entry/Spring-RESTFul-API-GET%EC%9C%BC%EB%A1%9C-JSON-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EC%95%84%EC%99%80-%ED%8C%8C%EC%8B%B1%EA%B9%8C%EC%A7%80JAVA-Spring-Kakao-%EB%A1%9C%EC%BB%AC-API-%EC%A1%B8%EC%97%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B83
+https://zoomkoding.github.io/codingtest/java/2019/09/20/REST-JSON.html
+
+다음 목표
+dependency 추가 완료
+다음 링크의 설명을 따라 json의 키 값을 추출하여 NetIP 추출
+
+최대한 자동화 시킬 것!
+
+
+
+try { JSONParser jsonParse = new JSONParser(); //JSONParse에 json데이터를 넣어 파싱한 다음 JSONObject로 변환한다. JSONObject jsonObj = (JSONObject) jsonParse.parse(jsonData); //JSONObject에서 PersonsArray를 get하여 JSONArray에 저장한다. JSONArray personArray = (JSONArray) jsonObj.get("Persons"); for(int i=0; i < personArray.size(); i++) { System.out.println("======== person : " + i + " ========"); JSONObject personObject = (JSONObject) personArray.get(i); System.out.println(personObject.get("name")); System.out.println(personObject.get("age")); } JSONArray booksArray = (JSONArray) jsonObj.get("Books"); for(int i=0; i < booksArray.size(); i++) { System.out.println("======== person : " + i + " ========"); JSONObject bookObject = (JSONObject) booksArray.get(i); System.out.println(bookObject.get("name")); System.out.println(bookObject.get("price")); } } catch (ParseException e) { e.printStackTrace(); } } } /* { "Persons": [ { "name": "고경태", "age": "30", "블로그": "ktko.tistory.com", "gender": "남자" }, { "name": "이홍준", "age": "31", "블로그": "없음", "gender": "남자" }, { "name": "서정윤", "age": "30", "블로그": "없음", "gender": "여자" } ], "Books": [ { "name": "javascript의 모든 것", "price": "10000" }, { "name": "java의 모든 것", "price": "15000" } ] }
+
+출처: https://ktko.tistory.com/entry/JAVA에서-JSON-파싱하기 [KTKO 개발 블로그와 여행 일기]
+
+
+https://cloud.google.com/compute/docs/instances/view-ip-address
+
+https://compute.googleapis.com/compute/v1/projects/
+bosh-261115/zones/asia-northeast1-b/instances/starlabs
+
+networkInterfaces [...accessConfigs[natIP]...]
+ip info postman test
+
+접근 순서 색인배열 .get("networkInterfaces")..get(0).get(4).get(0).get("d")
+
+{
+  "id": "3455538011992795450",
+  "creationTimestamp": "2020-01-13T17:22:30.283-08:00",
+  "name": "starlabs",
+  "description": "",
+  "tags": {
+    "items": [
+      "http-server",
+      "https-server"
+    ],
+    "fingerprint": "6smc4R4d39I="
+  },
+  "machineType": "https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/machineTypes/f1-micro",
+  "status": "RUNNING",
+  "zone": "https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b",
+  "canIpForward": false,
+  "networkInterfaces": [
+    {
+      "network": "https://www.googleapis.com/compute/v1/projects/bosh-261115/global/networks/default",
+      "subnetwork": "https://www.googleapis.com/compute/v1/projects/bosh-261115/regions/asia-northeast1/subnetworks/default",
+      "networkIP": "10.146.0.9",
+      "name": "nic0",
+      "accessConfigs": [
+        {
+          "type": "ONE_TO_ONE_NAT",
+          "name": "External NAT",
+          "natIP": "34.84.177.120",
+          "networkTier": "PREMIUM",
+          "kind": "compute#accessConfig"
+        }
+      ],
+      "fingerprint": "SP6UdCpswNs=",
+      "kind": "compute#networkInterface"
+    }
+  ],
+  "disks": [
+    {
+      "type": "PERSISTENT",
+      "mode": "READ_WRITE",
+      "source": "https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/disks/starlabs",
+      "deviceName": "starlabs",
+      "index": 0,
+      "boot": true,
+      "autoDelete": true,
+      "licenses": [
+        "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-9-stretch"
+      ],
+      "interface": "SCSI",
+      "guestOsFeatures": [
+        {
+          "type": "VIRTIO_SCSI_MULTIQUEUE"
+        }
+      ],
+      "diskSizeGb": "10",
+      "kind": "compute#attachedDisk"
+    }
+  ],
+  "metadata": {
+    "fingerprint": "EmZUPslKqBA=",
+    "kind": "compute#metadata"
+  },
+  "serviceAccounts": [
+    {
+      "email": "557741835606-compute@developer.gserviceaccount.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/devstorage.read_only",
+        "https://www.googleapis.com/auth/logging.write",
+        "https://www.googleapis.com/auth/monitoring.write",
+        "https://www.googleapis.com/auth/servicecontrol",
+        "https://www.googleapis.com/auth/service.management.readonly",
+        "https://www.googleapis.com/auth/trace.append"
+      ]
+    }
+  ],
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/bosh-261115/zones/asia-northeast1-b/instances/starlabs",
+  "scheduling": {
+    "onHostMaintenance": "MIGRATE",
+    "automaticRestart": true,
+    "preemptible": false
+  },
+  "cpuPlatform": "Intel Broadwell",
+  "labelFingerprint": "42WmSpB8rSM=",
+  "startRestricted": false,
+  "deletionProtection": false,
+  "reservationAffinity": {
+    "consumeReservationType": "ANY_RESERVATION"
+  },
+  "displayDevice": {
+    "enableDisplay": false
+  },
+  "kind": "compute#instance"
+}
+
+
+
+get json  [
+  {"canIpForward":false,"metadata":
+    {"fingerprint":"EmZUPslKqBA=","kind":"compute#metadata"},
+    "serviceAccounts":
+    [
+      {"email":"557741835606-compute@developer.gserviceaccount.com",
+      "scopes":
+        ["https:\/\/www.googleapis.com\/auth\/devstorage.read_only","https:\/\/www.googleapis.com\/auth\/logging.write","https:\/\/www.googleapis.com\/auth\/monitoring.write","https:\/\/www.googleapis.com\/auth\/servicecontrol","https:\/\/www.googleapis.com\/auth\/service.management.readonly","https:\/\/www.googleapis.com\/auth\/trace.append"]}],"disks":[{"type":"PERSISTENT","mode":"READ_WRITE","source":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/zones\/asia-northeast1-b\/disks\/starlabs","deviceName":"starlabs","index":0,"boot":true,"autoDelete":true,"licenses":["https:\/\/www.googleapis.com\/compute\/v1\/projects\/debian-cloud\/global\/licenses\/debian-9-stretch"],"interface":"SCSI","guestOsFeatures":[{"type":"VIRTIO_SCSI_MULTIQUEUE"}],"diskSizeGb":"10","kind":"compute#attachedDisk"}],"displayDevice":{"enableDisplay":false},"kind":"compute#instance","reservationAffinity":{"consumeReservationType":"ANY_RESERVATION"},"description":"","cpuPlatform":"Intel Broadwell","startRestricted":false,"labelFingerprint":"42WmSpB8rSM=",
+        "tags":{"items":["http-server","https-server"],
+          "fingerprint":"6smc4R4d39I="},
+          "selfLink":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/zones\/asia-northeast1-b\/instances\/starlabs",
+          "deletionProtection":false,
+          "networkInterfaces":
+          [
+            {"network":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/global\/networks\/default","subnetwork":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/regions\/asia-northeast1\/subnetworks\/default",
+              "networkIP":"10.146.0.9",
+              "name":"nic0",
+              "accessConfigs":[
+                {"type":"ONE_TO_ONE_NAT","name":"External NAT","natIP":"34.84.177.120","networkTier":"PREMIUM","kind":"compute#accessConfig"}],"fingerprint":"SP6UdCpswNs=","kind":"compute#networkInterface"}],"zone":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/zones\/asia-northeast1-b","creationTimestamp":"2020-01-13T17:22:30.283-08:00","name":"starlabs","scheduling":{"onHostMaintenance":"MIGRATE","automaticRestart":true,"preemptible":false},"id":"3455538011992795450","machineType":"https:\/\/www.googleapis.com\/compute\/v1\/projects\/bosh-261115\/zones\/asia-northeast1-b\/machineTypes\/f1-micro","status":"RUNNING"}]
