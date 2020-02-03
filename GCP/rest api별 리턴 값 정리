@@ -32,6 +32,9 @@ REST Resource: v3.services -> 별도의 서비스? 무슨 서비스를 의미하
 REST Resource: v3.services.serviceLevelObjectives -> 상기 내용과 동일
 REST Resource: v3.uptimeCheckIps
 
+
+REST api document : https://cloud.google.com/monitoring/access-control
+
 가장 연관성이 커 보이는 api들 테스트 진행
 v3.projects.metricDescriptors
 v3.projects.monitoredResourceDescriptors
@@ -123,6 +126,13 @@ list에서 반환한 객체중 gce_instance 타입이 갖는 데이터 필드와
 }
 
 
+
+GCP 메인 대시보드의 CPU사용량과 실제 인스턴스 CPU사용량은 다르다.
+https://serverfault.com/questions/952703/monitoring-reports-incorrect-cpu-usage-on-gcp
+
+
+
+
 v3.services
 
 
@@ -157,8 +167,7 @@ https://www.linux.co.kr/home2/board/subbs/board.php?bo_table=lecture&wr_id=1869&
 공식 도큐먼트 데비안 설치
 https://docs.netdata.cloud/packaging/installer/
 
-GCP 메인 대시보드의 CPU사용량과 실제 인스턴스 CPU사용량은 다르다.
-https://serverfault.com/questions/952703/monitoring-reports-incorrect-cpu-usage-on-gcp
+
 
 ``
 ip 값 자동획득
