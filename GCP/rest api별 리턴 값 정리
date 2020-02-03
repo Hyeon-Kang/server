@@ -1,5 +1,6 @@
 Stackdriver와 cloud watch의 차이점
 
+
 목록 링크 : https://cloud.google.com/docs/compare/aws/monitoring
 
 scope는 공통적으로 cloud-platform, monitoring만 추가해주면 됨
@@ -13,24 +14,31 @@ gcp는 모니터링 대쉬보드의 생성과 제거, 세부 옵션 설정은 �
 
 매트릭의 세부 파라미터 불러오기는 지원하지 않는 듯 하다....
 
-stackdriver rest api 리스트별 특징
 
-목록 링크 : https://cloud.google.com/monitoring/api/ref_v3/rest/
 
-REST Resource: v3.projects.alertPolicies -> 경고 정책 설정
-REST Resource: v3.projects.groups -> 그룹 관리
-REST Resource: v3.projects.groups.members -> 그룹 멤버 관리
+
+stackdriver rest api 리스트별 특징정리
+
+드라이버 REST API 목록 링크 : https://cloud.google.com/monitoring/api/ref_v3/rest/
+
+REST Resource: v3.projects.alertPolicies -> 경고 정책 설정 (stack monitor alert 추가로 참조 할 것!)
+REST Resource: v3.projects.groups -> 대쉬보드 그룹 관리
+REST Resource: v3.projects.groups.members -> 대쉬보드 그룹 멤버 관리
 REST Resource: v3.projects.metricDescriptors -> 전체 dashbord(metric) 관리, 값 불러오기 불가능, 메트릭 metadata만 설정 가능
                                                                   DB로 따지면 스키마 관리
 REST Resource: v3.projects.monitoredResourceDescriptors -> 세부 dashboard 관리, 위의 경우 전체 리스트를 관리한다면 resourceDescriptors는
                                                             개별 속성 관리, 즉 데이터를 얻어올 수 있지는 않다.
+
+디스크립터 api 예시 : https://cloud.google.com/monitoring/api/v3/filters#examples
+
 REST Resource: v3.projects.notificationChannelDescriptors
 REST Resource: v3.projects.notificationChannels
 REST Resource: v3.projects.timeSeries
 REST Resource: v3.projects.uptimeCheckConfigs
 REST Resource: v3.services -> 별도의 서비스? 무슨 서비스를 의미하는지 모르겠으나 return 값이 dashboard 관련은 아니었음
 REST Resource: v3.services.serviceLevelObjectives -> 상기 내용과 동일
-REST Resource: v3.uptimeCheckIps
+REST Resource: v3.uptimeCheckIps -> 리전, 인스턴스 별 가동 상태 (단순히 실행되는지 확인)
+예시 : https://cloud.google.com/monitoring/uptime-checks/using-uptime-checks?hl=ko
 
 
 REST api document : https://cloud.google.com/monitoring/access-control
@@ -38,7 +46,7 @@ REST api document : https://cloud.google.com/monitoring/access-control
 가장 연관성이 커 보이는 api들 테스트 진행
 v3.projects.metricDescriptors
 v3.projects.monitoredResourceDescriptors
-v3.services
+v3.services.
 
 
 먼저 v3.projects.metricDescriptors
@@ -129,12 +137,6 @@ list에서 반환한 객체중 gce_instance 타입이 갖는 데이터 필드와
 
 GCP 메인 대시보드의 CPU사용량과 실제 인스턴스 CPU사용량은 다르다.
 https://serverfault.com/questions/952703/monitoring-reports-incorrect-cpu-usage-on-gcp
-
-
-
-
-v3.services
-
 
 
 
