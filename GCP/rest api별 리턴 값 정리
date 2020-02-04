@@ -15,6 +15,7 @@ gcp는 모니터링 대쉬보드의 생성과 제거, 세부 옵션 설정은 �
 매트릭의 세부 파라미터 불러오기는 지원하지 않는 듯 하다....
 
 
+스택 드라이버 요금(가격) : https://cloud.google.com/stackdriver/pricing?hl=ko
 
 
 stackdriver rest api 리스트별 특징정리
@@ -40,6 +41,8 @@ REST Resource: v3.services.serviceLevelObjectives -> 상기 내용과 동일
 REST Resource: v3.uptimeCheckIps -> 리전, 인스턴스 별 가동 상태 (단순히 실행되는지 확인)
 예시 : https://cloud.google.com/monitoring/uptime-checks/using-uptime-checks?hl=ko
 
+
+스택 드라이버 콘솔 : https://app.google.stackdriver.com/
 
 REST api document : https://cloud.google.com/monitoring/access-control
 
@@ -180,3 +183,15 @@ ip 값 자동획득
 인스턴스 on/off 시 오류페이지 처리 해결
 
 에러 예외처리가 없음. 어떤 에러인지 로그를 찍어서 확인해보자.
+
+
+timeSeries
+https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list?apix_params=%7B%22name%22%3A%22projects%2F557741835606%22%2C%22aggregation.alignmentPeriod%22%3A%2260s%22%2C%22aggregation.perSeriesAligner%22%3A%22ALIGN_PERCENT_CHANGE%22%2C%22filter%22%3A%22resource.type%20%3D%20%5C%22gce_instance%5C%22%20AND%20resource.labels.instance_id%20%3D%20%5C%223455538011992795450%5C%22%20AND%20metric.type%20%3D%20%5C%22compute.googleapis.com%2Finstance%2Fdisk%2Fread_bytes_count%5C%22%20AND%20metric.labels.device_name%20%3D%20%5C%22log_partition%5C%22%22%2C%22interval.endTime%22%3A%222020-02-03T10%3A01%3A23.045123456Z%22%2C%22view%22%3A%22HEADERS%22%7D
+
+구글 api github document
+google-api-java-client-services/clients/google-api-services-monitoring/v3/1.30.1/
+https://github.com/googleapis/google-api-java-client-services/tree/master/clients/google-api-services-monitoring/v3/1.30.1
+
+
+
+! timeSeries api를 사용하면 stackdriver 계정을 사용하지 않고 데이터 접근이 가능하다.
