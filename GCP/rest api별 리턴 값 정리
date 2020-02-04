@@ -243,9 +243,7 @@ Accept: application/json
 스프링 resttemplate queryparam, expand 설명
 http://hacks.claztec.net/2015/08/24/spring-resttemplate.html
 
-
 "resource.type = gce_instance AND resource.labels.instance_id = {instance_num} AND metric.type=compute.googleapis.com/instance/{resource}"
-
 
 도큐먼트 작성 대비 출처 정리
 
