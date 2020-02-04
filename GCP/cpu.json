@@ -1,0 +1,23 @@
+[
+  {
+    timeSeries=
+    [
+      {metric=
+        {type=compute.googleapis.com/instance/cpu/utilization},
+        resource={type=gce_instance, labels={project_id=bosh-261115}},
+        metricKind=GAUGE,
+        valueType=DOUBLE,
+        points=[
+          {interval=
+            {startTime=2020-02-03T09:23:00.045123Z, endTime=2020-02-03T09:23:00.045123Z},
+            value={doubleValue=0.1904595195405818}
+          },
+        {metric=}
+        ]
+      }
+    ]
+  }
+]
+
+1. 배열 해체??? [] 때문에 get(index)를 사용했더니 오류 발생
+   get("timeSeries")를 하니까 그냥 꺼내진다??
