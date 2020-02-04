@@ -195,3 +195,53 @@ https://github.com/googleapis/google-api-java-client-services/tree/master/client
 
 
 ! timeSeries api를 사용하면 stackdriver 계정을 사용하지 않고 데이터 접근이 가능하다.
+
+name:
+projects/557741835606
+        /{project_id}
+
+metric.type="compute.googleapis.com/instance/cpu/utilization"
+resource.type = "gce_instance" AND metric.type = "compute.googleapis.com/instance/disk/read_bytes_count" AND unit = 10^2.%"
+
+ AND unit = 10^2.%"
+
+
+예시
+resource.type = "gce_instance" AND
+resource.labels.instance_id = "1472038649266883453" AND
+metric.type = "compute.googleapis.com/instance/disk/read_bytes_count" AND
+metric.labels.device_name = "log_partition"
+
+실습
+resource.type = "gce_instance" AND
+resource.labels.instance_id = "3455538011992795450" AND
+metric.type="compute.googleapis.com/instance/cpu/utilization"
+
+** Zulu 시간 주의!
+ ex) 2020-02-04T09:23:23.045123456Z
+
+ 2020-02-04T09:23:23-90:00
+
+ 2016-10-27T17:13:40+00:00
+
+ java에 전달 할 데이터
+
+ GET https://monitoring.googleapis.com/v3/projects/557741835606/timeSeries?aggregation.alignmentPeriod=60s&aggregation.crossSeriesReducer=REDUCE_MEAN&aggregation.perSeriesAligner=ALIGN_MEAN&filter=resource.type%20%3D%20%22gce_instance%22%20AND%20resource.labels.instance_id%20%3D%20%223455538011992795450%22%20AND%20metric.type%3D%22compute.googleapis.com%2Finstance%2Fcpu%2Futilization%22&interval.endTime=2020-02-04T09%3A23%3A23.045123456Z&interval.startTime=2020-02-03T08%3A01%3A23.045123456Z&view=FULL&key=[YOUR_API_KEY] HTTP/1.1
+
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
+Accept: application/json
+
+** metadata (encoded)
+GET https://monitoring.googleapis.com/v3/projects/{project_id or project_id_or_number}/timeSeries?aggregation.alignmentPeriod={측정 시간(초)}s&aggregation.crossSeriesReducer=REDUCE_MEAN&
+aggregation.perSeriesAligner=ALIGN_MEAN&
+filter=resource.type%20%3D%20%22gce_instance%22%20AND%20
+resource.labels.instance_id%20%3D%20%22{instance_num}%22%20AND%20metric.type%3D%22compute.googleapis.com%2Finstance%2Fcpu%2Futilization%22&interval.endTime=2020-02-04T09%3A23%3A23.045123456Z&interval.startTime=2020-02-03T08%3A01%3A23.045123456Z&view=FULL&key=[YOUR_API_KEY] HTTP/1.1
+
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
+Accept: application/json
+
+스프링 resttemplate queryparam, expand 설명
+http://hacks.claztec.net/2015/08/24/spring-resttemplate.html
+
+
+"resource.type = gce_instance AND resource.labels.instance_id = {instance_num} AND metric.type=compute.googleapis.com/instance/{resource}"
