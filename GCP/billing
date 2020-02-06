@@ -36,3 +36,19 @@ GET /v1/{name=projects/*}/billingInfo
 
 PUT /v1/{name=projects/*}/billingInfo
 프로젝트와 관련된 결제 계정을 설정하거나 업데이트합니다.
+
+
+https://cloudbilling.googleapis.com/v1/{name=billingAccounts/*}
+
+
+상품별 가격 정보
+https://cloud.google.com/billing/v1/how-tos/catalog-api?hl=ko
+
+
+
+Cloud Billing Budget API
+
+service endpoint : https://billingbudgets.googleapis.com
+
+GET /v1beta1/{name=billingAccounts/*/budgets/*}
+Returns a budget.
