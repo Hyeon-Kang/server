@@ -1,0 +1,17 @@
+rest api document
+https://cloud.google.com/billing/reference/rest/?hl=ko
+
+GET /v1/{name=billingAccounts/*}
+결제 계정에 대한 정보를 가져옵니다.
+
+GET /v1/{resource=billingAccounts/*}:getIamPolicy
+결제 계정에 대한 액세스 제어 정책을 가져옵니다.
+
+GET /v1/billingAccounts
+현재 인증 된 사용자에게 볼 권한이있는 결제 계정을 나열합니다 .
+
+PATCH /v1/{name=billingAccounts/*}
+결제 계정 필드를 업데이트합니다.
+
+GET /v1/{name=billingAccounts/*}/projects
+결제 계정과 관련된 프로젝트를 나열합니다.
