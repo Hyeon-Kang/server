@@ -255,3 +255,8 @@ https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list?
 
 인스턴스 세부 정보 호출 (instance name, external ip 등등)
 https://cloud.google.com/compute/docs/reference/rest/v1/instances?hl=ko
+
+https://console.cloud.google.com/apis/api/monitoring.googleapis.com/ 활성화 시켜주어야 함
+
+1. 차트 구성
+2. 빌링 시스템 구성
