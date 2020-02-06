@@ -1,3 +1,18 @@
+API 활성화 (무료)
+Cloud Billing API
+
+
+승인 범위
+다음 OAuth 범위 중 하나가 필요합니다.
+
+https://www.googleapis.com/auth/cloud-platform
+https://www.googleapis.com/auth/cloud-billing
+https://www.googleapis.com/auth/cloud-billing.readonly
+
+
+Service endpoint
+https://cloudbilling.googleapis.com
+
 rest api document
 https://cloud.google.com/billing/reference/rest/?hl=ko
 
@@ -15,3 +30,9 @@ PATCH /v1/{name=billingAccounts/*}
 
 GET /v1/{name=billingAccounts/*}/projects
 결제 계정과 관련된 프로젝트를 나열합니다.
+
+GET /v1/{name=projects/*}/billingInfo
+프로젝트의 청구 정보를 가져옵니다.
+
+PUT /v1/{name=projects/*}/billingInfo
+프로젝트와 관련된 결제 계정을 설정하거나 업데이트합니다.
