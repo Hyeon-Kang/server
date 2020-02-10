@@ -1,0 +1,265 @@
+resource Descriptor를 통해 가용 자원 목록을 긁어오면 다음과 같은 대량의 json 데이터를 반환한다.
+
+반환된 데이터는 세부 값은 없고 meta데이터만 존재함
+
+그러나 timeSeries에서 view 파라미터에 full 값을 넣으면 각 자원별 세부 측정값을 얻을 수 있다.
+
+
+{
+  "resourceDescriptors": [
+    {
+      "type": "api",
+      "displayName": "Produced API",
+      "description": "An API provided by the producer.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The API service name, such as \"cloudsql.googleapis.com\"."
+        },
+        {
+          "key": "method",
+          "description": "The API method, such as \"disks.list\"."
+        },
+        {
+          "key": "version",
+          "description": "The API version, such as \"v1\"."
+        },
+        {
+          "key": "location",
+          "description": "The service specific notion of location. This can be the name of a zone, region, or \"global\"."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/api",
+      "launchStage": "BETA"
+    },
+    {
+      "type": "app_script_function",
+      "displayName": "Apps Script Function",
+      "description": "An Apps Script function.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "invocation_type",
+          "description": "The invocation type."
+        },
+        {
+          "key": "function_name",
+          "description": "The function name."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/app_script_function"
+    },
+    {
+      "type": "assistant_action",
+      "displayName": "Google Assistant Action",
+      "description": "An Action in a Google Assistant App.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "version_id",
+          "description": "Stringified version ID of the assistant agent."
+        },
+        {
+          "key": "action_id",
+          "description": "Action ID of the assistant agent."
+        }
+      ],
+      "name": "projects/bosh-261115/monitoredResourceDescriptors/assistant_action"
+    },
+    {
+      "type": "audited_resource",
+      "displayName": "Audited Resource",
+      "description": "A Google Cloud resource that produces an audit log.",
+      "labels": [
+        {
+          "key": "project_id",
+          "description": "The identifier of the GCP project associated with this resource, such as \"my-project\"."
+        },
+        {
+          "key": "service",
+          "description": "The name of the API service generating the audit log."
+        },
+        {
+          "key": "method",
+          "description": "The name of the API method generating the audit log."
+        }
+      ],
+
+
+다음은 필터를 통해 측정 기준을 평균으로 맞추고 사용량을 구한 결과이다.
+
+name: projects/starlabs-265108 -> 프로젝트 id or number
+
+aggregation.alignmentPeriod : 60s -> 측정 단위시간, 측정 단위시간은 최소 10s 이상부터 자유롭게 설정 가능함
+
+aggregation.crossSeriesReducer : REDUCE_MEAN
+
+aggregation.perSeriesAligner : ALIGN_MEAN
+
+-> 평균으로 설정
+
+filter : resource.type = "gce_instance" AND resource.labels.instance_id = "715128510962745122" AND metric.type="compute.googleapis.com/instance/cpu/utilization"
+-> resource type, instance number, metric 옵션 설정
+
+interval.endTime : 2020-02-06T01:20:00Z UTC zulu format 시간 설정(뒤의 나노초와 Z 꼭 붙여야 함!)
+interval.startTime : 2020-02-06T01:10:00Z
+
+-> 시작 시간과 끝 시간을 측정 단위 시간으로 나누어 사용량 측정
+
+
+다음과 같이 세부 측정값이 들어간 json 데이터를 리턴받는다.
+
+
+{
+  "timeSeries": [
+    {
+      "metric": {
+        "type": "compute.googleapis.com/instance/cpu/utilization"
+      },
+      "resource": {
+        "type": "gce_instance",
+        "labels": {
+          "project_id": "starlabs-265108"
+        }
+      },
+      "metricKind": "GAUGE",
+      "valueType": "DOUBLE",
+      "points": [
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:20:00Z",
+            "endTime": "2020-02-06T01:20:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0057791867428348036
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:19:00Z",
+            "endTime": "2020-02-06T01:19:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0062087759840909005
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:18:00Z",
+            "endTime": "2020-02-06T01:18:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0054393897891875645
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:17:00Z",
+            "endTime": "2020-02-06T01:17:00Z"
+          },
+          "value": {
+            "doubleValue": 0.00652253932023313
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:16:00Z",
+            "endTime": "2020-02-06T01:16:00Z"
+          },
+          "value": {
+            "doubleValue": 0.00865155928537161
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:15:00Z",
+            "endTime": "2020-02-06T01:15:00Z"
+          },
+          "value": {
+            "doubleValue": 0.011297807523761822
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:14:00Z",
+            "endTime": "2020-02-06T01:14:00Z"
+          },
+          "value": {
+            "doubleValue": 0.00983921958374756
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:13:00Z",
+            "endTime": "2020-02-06T01:13:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0060805649556150421
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:12:00Z",
+            "endTime": "2020-02-06T01:12:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0042730996805147763
+          }
+        },
+        {
+          "interval": {
+            "startTime": "2020-02-06T01:11:00Z",
+            "endTime": "2020-02-06T01:11:00Z"
+          },
+          "value": {
+            "doubleValue": 0.0043467228622013163
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+위의 데이터를 parsing하여 사용해야 함
+
+
+json 데이터를 그래프에 표현하기 위해 다음과 같이 코드를 작성함
+
+
+먼저 Zulu format에 맞추어 시작, 종료 시간을 전달하기 위한 메소드
+
+
+	// get Zulu TIme (1hour interval) stack driver api는 그리니치 표준시를 기점으로 하기 때문에 변환해주어야함!
+	public Map<String, String> get_time() throws java.text.ParseException {
+
+
+		return result_time; // [{"start_time", value}, {end_time, value}] 이렇게 구성
+	}
+
+
+위 메소드에서 얻은 시간 데이터를 이용하여 1시간 기록을 1분 단위로 측정한 메소드를 작성하였다.
+해당 api는 instance number, metric 옵션, 측정 단위 시간, zulu format 시작, 종료시간, access 토큰 등의 정보가 필요함
+
+  // api 참고 :
+	// https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list
+	// case1) get_info(access_token);
+	// case2) get_info(access_token, "60s", "cpu/utilization"); // 나중에 변수화시킬 것!
+
+	// get cpu_utilization
+	public ArrayList<Object> get_info(String access_token) throws java.text.ParseException {
+
+	
+		Collections.reverse(result_arr); // 결과가 거꾸로 나와 배열을 역순으로 취함
+		return result_arr;
+	}
