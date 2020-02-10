@@ -59,3 +59,44 @@ https://cloud.google.com/billing/docs/how-to/budget-api?hl=ko
 
 v1beta1/billingAccounts/ billing-account-id / budgets
 https://cloud.google.com/billing/docs/how-to/budget-api?hl=ko
+
+
+선별 기준
+1. 서비스 코드
+2. 지역 코드 : asia-northeast1
+3. 금액이 0이 아닌
+
+토탈 이용 시간은 어떻게 측정해야 할까?
+
+서비스 최초 생성 시간 구하는 방법?
+
+(test budget 생성)
+
+0. scope
+  다음 OAuth 범위 중 하나가 필요합니다.
+  https://www.googleapis.com/auth/cloud-platform
+  https://www.googleapis.com/auth/cloud-billing
+0. IAM 권한 추가 (project.manager, billing.budgets.list)
+1. 예산 리스트 조회 list : https://cloud.google.com/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets/list?hl=ko&apix_params=%7B%22parent%22%3A%22billingAccounts%2F01688C-AB992B-9642A3%22%7D#path-parameters
+  parameters : billingAccounts/01688C-AB992B-9642A3 (my billing account)
+2. 예산이 없으면 생성
+3. 예산 get : https://cloud.google.com/billing/docs/reference/budget/rest/v1beta1/billingAccounts.budgets/get?hl=ko#try-it
+  parameters : billingAccounts/{billingAccountId}/budgets/{budgetId}
+  ex ) billingAccounts/billingAccounts/01688C-AB992B-9642A3/budgets/{budgetId}
+  (budget ID ?? "etag": "4df6033932f2eab7" or
+   "name": "billingAccounts/01688C-AB992B-9642A3/budgets/08271e21-04d7-484d-970c-d7764f0164af",)
+  ** IAM 권한 필요 : billing.budgets.get
+
+4. 예산 삭제??
+
+
+일별 세부 데이터를 뽑으려면 빅 쿼리 말고는 답이 없는 듯 하다.
+
+빅 쿼리 설명 & 기초 사용법
+https://bcho.tistory.com/1116
+
+빅 쿼리 rest api 사용법
+https://bestpractice80.tistory.com/14
+
+빅 쿼리 post query API DOCUMENT
+https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/query?hl=ko
