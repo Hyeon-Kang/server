@@ -52,3 +52,10 @@ service endpoint : https://billingbudgets.googleapis.com
 
 GET /v1beta1/{name=billingAccounts/*/budgets/*}
 Returns a budget.
+
+https://cloud.google.com/billing/docs/how-to/budget-api?hl=ko
+
+*****https://cloud.google.com/billing/reference/rest/v1/ProjectBillingInfo?hl=ko
+
+v1beta1/billingAccounts/ billing-account-id / budgets
+https://cloud.google.com/billing/docs/how-to/budget-api?hl=ko
