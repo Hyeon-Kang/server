@@ -91,6 +91,7 @@ https://cloud.google.com/billing/docs/how-to/budget-api?hl=ko
 
 
 일별 세부 데이터를 뽑으려면 빅 쿼리 말고는 답이 없는 듯 하다.
+스택오버 증언 : https://stackoverflow.com/questions/52470160/api-for-getting-daily-billing-cost-in-gcp
 
 빅 쿼리 설명 & 기초 사용법
 https://bcho.tistory.com/1116
