@@ -103,12 +103,13 @@ https://bestpractice80.tistory.com/14
 https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/query?hl=ko
 
 결제 데이터 내보내기 예제
+https://cloud.google.com/billing/docs/how-to/export-data-bigquery (사전 dataset 세팅)
 https://cloud.google.com/billing/docs/how-to/bq-examples
 
 빅 쿼리 콘솔창
 https://console.cloud.google.com/bigquery?project=starlabs-265108&page=queries
 
-빅 쿼리 엑세스 오류
+빅 쿼리 엑세스 오류 (타 계정 엑세스 시도)
 https://cloud.google.com/bigquery/docs/access-control?hl=ko
 
 SELECT
@@ -128,3 +129,15 @@ ORDER BY 1 ASC
 
 
 bosh-261115
+
+** BigQuery 내보내기를 사용 설정한 후 데이터가 표시되기 시작할 때까지 몇 시간 정도 걸릴 수 있습니다.
+결제 데이터는 정기적으로 사용자 데이터를 BigQuery에 자동으로 내보내지만
+BigQuery의 업데이트 빈도는 사용 중인 서비스에 따라 달라집니다.
+BigQuery 로드는 ACID와 호환되므로 데이터를 로드하는 중에 BigQuery 결제 내보내기 데이터세트를 쿼리할 경우
+부분적으로 로드된 데이터가 발생하지 않습니다. BigQuery 특성에 대해 자세히 알아보세요.
+
+
+https://cloud.google.com/billing/docs/how-to/notify#selectively_control_usage
+
+Pub/Sub란 무엇인가요? :
+https://cloud.google.com/pubsub/docs/overview
