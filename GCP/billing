@@ -101,3 +101,30 @@ https://bestpractice80.tistory.com/14
 
 빅 쿼리 post query API DOCUMENT
 https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/query?hl=ko
+
+결제 데이터 내보내기 예제
+https://cloud.google.com/billing/docs/how-to/bq-examples
+
+빅 쿼리 콘솔창
+https://console.cloud.google.com/bigquery?project=starlabs-265108&page=queries
+
+빅 쿼리 엑세스 오류
+https://cloud.google.com/bigquery/docs/access-control?hl=ko
+
+SELECT
+  invoice.month,
+  SUM(cost)
+    + SUM(IFNULL((SELECT SUM(c.amount)
+                  FROM UNNEST(credits) c), 0))
+    AS total,
+  (SUM(CAST(cost * 1000000 AS int64))
+    + SUM(IFNULL((SELECT SUM(CAST(c.amount * 1000000 as int64))
+                  FROM UNNEST(credits) c), 0))) / 1000000
+    AS total_exact
+FROM `project.dataset.gcp_billing_export_v1_XXXXXX_XXXXXX_XXXXXX`
+GROUP BY 1
+ORDER BY 1 ASC
+;
+
+
+bosh-261115
