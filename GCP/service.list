@@ -1,0 +1,1321 @@
+가용 서비스 목록.json
+
+{
+  "services": [
+    {
+      "name": "services/0069-3716-5463",
+      "serviceId": "0069-3716-5463",
+      "displayName": "Qubole Data Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/01BA-36F6-AA33",
+      "serviceId": "01BA-36F6-AA33",
+      "displayName": "Web Risk",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/01F9-FAF7-CFA5",
+      "serviceId": "01F9-FAF7-CFA5",
+      "displayName": "Twinword Inc. Word Dictionary API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0245-C3C9-3864",
+      "serviceId": "0245-C3C9-3864",
+      "displayName": "Geolocation API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/02DA-B362-D983",
+      "serviceId": "02DA-B362-D983",
+      "displayName": "Cloud Text-to-Speech API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0314-C555-3A8D",
+      "serviceId": "0314-C555-3A8D",
+      "displayName": "Techlatest.net SellOdoo",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/04C4-B046-D8B2",
+      "serviceId": "04C4-B046-D8B2",
+      "displayName": "Cloud Natural Language",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0648-8D63-9113",
+      "serviceId": "0648-8D63-9113",
+      "displayName": "Grafana Labs Grafana Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/06F5-38F6-036A",
+      "serviceId": "06F5-38F6-036A",
+      "displayName": "Prediction",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0907-DE2F-BC9C",
+      "serviceId": "0907-DE2F-BC9C",
+      "displayName": "Mavatar Technologies mCart Platform-as-a-Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0964-847D-9142",
+      "serviceId": "0964-847D-9142",
+      "displayName": "infamkplcodelab IICS Service - Testing",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0A84-D90D-8FF5",
+      "serviceId": "0A84-D90D-8FF5",
+      "displayName": "Test Marketplace Procurable OP Full Solution",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0AC2-4B25-C429",
+      "serviceId": "0AC2-4B25-C429",
+      "displayName": "Geocoding API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/0C76-2443-BB08",
+      "serviceId": "0C76-2443-BB08",
+      "displayName": "Twinword Inc. Twinword Text Analysis API Bundle",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0D19-EC86-35B0",
+      "serviceId": "0D19-EC86-35B0",
+      "displayName": "Cloud Data Fusion",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0DC6-1D65-6DAA",
+      "serviceId": "0DC6-1D65-6DAA",
+      "displayName": "Partner Demo Test WordPress",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/0FB0-A08E-55E6",
+      "serviceId": "0FB0-A08E-55E6",
+      "displayName": "Twinword Inc. Emotion Analysis API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1196-AFAB-AB4C",
+      "serviceId": "1196-AFAB-AB4C",
+      "displayName": "Bkper",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/11F2-A380-6357",
+      "serviceId": "11F2-A380-6357",
+      "displayName": "Maps Elevation API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/150C-D174-4C61",
+      "serviceId": "150C-D174-4C61",
+      "displayName": "StraaS",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/152E-C115-5142",
+      "serviceId": "152E-C115-5142",
+      "displayName": "Cloud Run",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/16B8-3DDA-9F10",
+      "serviceId": "16B8-3DDA-9F10",
+      "displayName": "BigQuery Reservation API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1780-5EFE-7CFE",
+      "serviceId": "1780-5EFE-7CFE",
+      "displayName": "Wowza Media Systems Wowza Streaming Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/183D-0753-AE77",
+      "serviceId": "183D-0753-AE77",
+      "displayName": "Twinword Inc. Topic Tagging API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/18FC-D122-7B50",
+      "serviceId": "18FC-D122-7B50",
+      "displayName": "CloudBees Jenkins Support",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1992-3666-B975",
+      "serviceId": "1992-3666-B975",
+      "displayName": "Cloud Composer",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1A5E-92D8-5F05",
+      "serviceId": "1A5E-92D8-5F05",
+      "displayName": "Shape Security Connect",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1AC5-B450-39B6",
+      "serviceId": "1AC5-B450-39B6",
+      "displayName": "Trillo Inc. Trillo Platform Runtime",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1AF9-4430-172E",
+      "serviceId": "1AF9-4430-172E",
+      "displayName": "NetApp Cloud Volumes",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1B99-7474-D779",
+      "serviceId": "1B99-7474-D779",
+      "displayName": "Redis Labs",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1C58-CF90-9614",
+      "serviceId": "1C58-CF90-9614",
+      "displayName": "Firebase Realtime Database",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1D85-EB86-2067",
+      "serviceId": "1D85-EB86-2067",
+      "displayName": "Robin Storage",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1DB1-3CD3-35A3",
+      "serviceId": "1DB1-3CD3-35A3",
+      "displayName": "Translate",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1F14-4801-0E16",
+      "serviceId": "1F14-4801-0E16",
+      "displayName": "Cloud Scheduler",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/1FA9-5893-1647",
+      "serviceId": "1FA9-5893-1647",
+      "displayName": "Fivetran Fivetran Data Pipelines",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2013-6034-ACC3",
+      "serviceId": "2013-6034-ACC3",
+      "displayName": "Kentik Detect",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2059-F45F-A52D",
+      "serviceId": "2059-F45F-A52D",
+      "displayName": "CloudBees Core",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/206A-22FA-D734",
+      "serviceId": "206A-22FA-D734",
+      "displayName": "Transcode API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2172-CD1A-453A",
+      "serviceId": "2172-CD1A-453A",
+      "displayName": "NetApp, Inc. Cloud Manager for Cloud Volumes ONTAP",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/233A-D9B7-58CE",
+      "serviceId": "233A-D9B7-58CE",
+      "displayName": "Human API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2431-6410-693F",
+      "serviceId": "2431-6410-693F",
+      "displayName": "SendGrid",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/24E6-581D-38E5",
+      "serviceId": "24E6-581D-38E5",
+      "displayName": "BigQuery",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2662-232A-AC11",
+      "serviceId": "2662-232A-AC11",
+      "displayName": "Firebase Hosting",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/26CA-A975-F471",
+      "serviceId": "26CA-A975-F471",
+      "displayName": "Dynamic AI Demo",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/285E-7B4D-F721",
+      "serviceId": "285E-7B4D-F721",
+      "displayName": "ResIOT OPEN GCP",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/28F7-4917-FF3F",
+      "serviceId": "28F7-4917-FF3F",
+      "displayName": "UCRAFT WL",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2992-EE56-ACD8",
+      "serviceId": "2992-EE56-ACD8",
+      "displayName": "Cloud CDN",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/29C8-2050-2424",
+      "serviceId": "29C8-2050-2424",
+      "displayName": "Genomics",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/29E7-DA93-CA13",
+      "serviceId": "29E7-DA93-CA13",
+      "displayName": "Cloud Functions",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2EAF-972B-5B82",
+      "serviceId": "2EAF-972B-5B82",
+      "displayName": "k8sBot",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2EC9-6E36-8614",
+      "serviceId": "2EC9-6E36-8614",
+      "displayName": "Bell Integrator Neuton",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/2F16-616C-6696",
+      "serviceId": "2F16-616C-6696",
+      "displayName": "Twinword Inc. Language Scoring API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/32B2-405F-9FA5",
+      "serviceId": "32B2-405F-9FA5",
+      "displayName": "Informatica Intelligent Cloud Services",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3382-87F8-BDD6",
+      "serviceId": "3382-87F8-BDD6",
+      "displayName": "Zype",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/347E-F249-649F",
+      "serviceId": "347E-F249-649F",
+      "displayName": "Alcide",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3662-F860-6F1E",
+      "serviceId": "3662-F860-6F1E",
+      "displayName": "Absolut-e Data Com Inc. BizStats AI",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3679-7487-549C",
+      "serviceId": "3679-7487-549C",
+      "displayName": "Roads API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/376F-19D2-9B33",
+      "serviceId": "376F-19D2-9B33",
+      "displayName": "Microfusion Technology Co., Ltd AmigoCDN",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3785-C506-2C71",
+      "serviceId": "3785-C506-2C71",
+      "displayName": "Twinword Inc. Text Similarity API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3819-1239-10F2",
+      "serviceId": "3819-1239-10F2",
+      "displayName": "Prodoscore",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3986-8652-1EE5",
+      "serviceId": "3986-8652-1EE5",
+      "displayName": "Searce Cosourcing Services Private Limited happierWork",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/39AC-27DC-CF4F",
+      "serviceId": "39AC-27DC-CF4F",
+      "displayName": "DEMAND - Live Event Tracker",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3B13-68C5-D78D",
+      "serviceId": "3B13-68C5-D78D",
+      "displayName": "MongoDB Inc. MongoDB Atlas",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3BA6-A219-F3D0",
+      "serviceId": "3BA6-A219-F3D0",
+      "displayName": "Z-Stream",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3C29-F0F9-87C0",
+      "serviceId": "3C29-F0F9-87C0",
+      "displayName": "Aqua Security Software Inc. Aqua Cloud Native Security Platform",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3DA4-3F6C-A8E7",
+      "serviceId": "3DA4-3F6C-A8E7",
+      "displayName": "Number Associates BV Onesecondbefore",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3DC9-F70D-E342",
+      "serviceId": "3DC9-F70D-E342",
+      "displayName": "Kasten K10 Platform",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/3E65-A14D-E29F",
+      "serviceId": "3E65-A14D-E29F",
+      "displayName": "Firebase Auth",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/42BE-D2BF-F64F",
+      "serviceId": "42BE-D2BF-F64F",
+      "displayName": "Zync",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/44BC-E53F-C50E",
+      "serviceId": "44BC-E53F-C50E",
+      "displayName": "Confluent Cloud for Apache Kafka",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/46C7-B8CB-DDAA",
+      "serviceId": "46C7-B8CB-DDAA",
+      "displayName": "Elastifile Cloud File System",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4767-6EC0-25EB",
+      "serviceId": "4767-6EC0-25EB",
+      "displayName": "Atos database hotel Atos Database hotel for GCP",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4BED-D4B2-0923",
+      "serviceId": "4BED-D4B2-0923",
+      "displayName": "Neo4j GCP Integration Service (Prod)",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4C1F-807E-603E",
+      "serviceId": "4C1F-807E-603E",
+      "displayName": "Cohesity Backup as a Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4CCE-C0C3-93D1",
+      "serviceId": "4CCE-C0C3-93D1",
+      "displayName": "JFrog Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4CD4-2F2E-649E",
+      "serviceId": "4CD4-2F2E-649E",
+      "displayName": "Transcoder API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/4DCE-5C72-65F1",
+      "serviceId": "4DCE-5C72-65F1",
+      "displayName": "Zenoss, Inc Zenoss",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/50C8-D359-64EA",
+      "serviceId": "50C8-D359-64EA",
+      "displayName": "Google Maps Mobile SDK",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/51E1-5E6D-6864",
+      "serviceId": "51E1-5E6D-6864",
+      "displayName": "staging-n4gcp-neo4j-io Neo4j GCP Integration Service (Staging)",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/538A-6646-0AC7",
+      "serviceId": "538A-6646-0AC7",
+      "displayName": "Portworx",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/542E-7BAD-618E",
+      "serviceId": "542E-7BAD-618E",
+      "displayName": "Qubit Personalization",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/5490-F7B7-8DF6",
+      "serviceId": "5490-F7B7-8DF6",
+      "displayName": "Stackdriver Logging",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/57D6-8E6B-2DE0",
+      "serviceId": "57D6-8E6B-2DE0",
+      "displayName": "Cloud Dataflow",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/58CD-E7C3-72CA",
+      "serviceId": "58CD-E7C3-72CA",
+      "displayName": "Stackdriver Monitoring",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/5AF5-2C11-D467",
+      "serviceId": "5AF5-2C11-D467",
+      "displayName": "Cloud Memorystore for Redis",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/5B4B-FC5C-5A9D",
+      "serviceId": "5B4B-FC5C-5A9D",
+      "displayName": "HYCU, Inc HYCU",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/5DD3-CA5C-D8EA",
+      "serviceId": "5DD3-CA5C-D8EA",
+      "displayName": "Firebase",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6083-E3C3-38BC",
+      "serviceId": "6083-E3C3-38BC",
+      "displayName": "GliaStudio",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/60BD-C45F-DA72",
+      "serviceId": "60BD-C45F-DA72",
+      "displayName": "iKala interactive media inc. StraaS Cloud Media Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/613A-2325-ED63",
+      "serviceId": "613A-2325-ED63",
+      "displayName": "Portworx Enterprise (Managed Updates)",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/63DE-82AB-F564",
+      "serviceId": "63DE-82AB-F564",
+      "displayName": "Cloud Speech API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/650B-3C82-34DB",
+      "serviceId": "650B-3C82-34DB",
+      "displayName": "BigQuery BI Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/650E-4907-F240",
+      "serviceId": "650E-4907-F240",
+      "displayName": "MYFUNDBOX FundraisingCRM",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6712-6BC2-99BD",
+      "serviceId": "6712-6BC2-99BD",
+      "displayName": "Appranix Site Reliability Automation",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6763-E14D-F791",
+      "serviceId": "6763-E14D-F791",
+      "displayName": "DKube",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6818-A20C-2592",
+      "serviceId": "6818-A20C-2592",
+      "displayName": "zData Cloud Enablement Services",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/68FC-3CF1-42A8",
+      "serviceId": "68FC-3CF1-42A8",
+      "displayName": "xMatters xmatters",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6989-D2BD-317E",
+      "serviceId": "6989-D2BD-317E",
+      "displayName": "dev-n4gcp-neo4j-io-251218 Neo4j GCP Integration Service (Dev)",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6CD9-8229-22B6",
+      "serviceId": "6CD9-8229-22B6",
+      "displayName": "Cloud IoT Core",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6EBF-B6A5-B5E3",
+      "serviceId": "6EBF-B6A5-B5E3",
+      "displayName": "BuzzBoard, Inc. smbsmart",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/6F81-5844-456A",
+      "serviceId": "6F81-5844-456A",
+      "displayName": "Compute Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7088-FDF6-8532",
+      "serviceId": "7088-FDF6-8532",
+      "displayName": "Cloud Data Labeling Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/73DA-E903-54C9",
+      "serviceId": "73DA-E903-54C9",
+      "displayName": "Google Cloud Vision OCR Alpha",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7688-B6B9-8C4B",
+      "serviceId": "7688-B6B9-8C4B",
+      "displayName": "floreysoft-public Ultradox",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7691-09D6-4201",
+      "serviceId": "7691-09D6-4201",
+      "displayName": "PingCAP TiDB Operator",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/76E2-11F9-84CB",
+      "serviceId": "76E2-11F9-84CB",
+      "displayName": "IBM Power Systems for Google Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7963-9CEF-6476",
+      "serviceId": "7963-9CEF-6476",
+      "displayName": "Tick Tock Networks Tick Tock Clock Sync & Monitoring",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7C52-19D8-71EE",
+      "serviceId": "7C52-19D8-71EE",
+      "displayName": "Cloud Healthcare",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/7FBA-A3C2-4912",
+      "serviceId": "7FBA-A3C2-4912",
+      "displayName": "Cockroach Labs CockroachDB",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/83A7-3BD5-8799",
+      "serviceId": "83A7-3BD5-8799",
+      "displayName": "Twinword Inc. Word Associations API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8534-F08B-BEBD",
+      "serviceId": "8534-F08B-BEBD",
+      "displayName": "Cloud Domains",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8735-FD22-0718",
+      "serviceId": "8735-FD22-0718",
+      "displayName": "Firebase Test Lab",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/879F-1832-8749",
+      "serviceId": "879F-1832-8749",
+      "displayName": "Stackdriver",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/87CF-BBA7-177D",
+      "serviceId": "87CF-BBA7-177D",
+      "displayName": "CloudHedge Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/88A4-AE7A-CAEC",
+      "serviceId": "88A4-AE7A-CAEC",
+      "displayName": "Tackle Upstream",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/88C2-F63A-C21B",
+      "serviceId": "88C2-F63A-C21B",
+      "displayName": "CloudQuest, Inc. Guardian",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/89B9-6A5A-B358",
+      "serviceId": "89B9-6A5A-B358",
+      "displayName": "Data Catalog",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8A7C-6E76-0289",
+      "serviceId": "8A7C-6E76-0289",
+      "displayName": "Now IMS Now Intelligence Management",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8B5D-EF7D-EB12",
+      "serviceId": "8B5D-EF7D-EB12",
+      "displayName": "Cloud Build",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8CD0-2A17-0B05",
+      "serviceId": "8CD0-2A17-0B05",
+      "displayName": "Cloud Video Intelligence API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/8F5B-B6A8-ACCB",
+      "serviceId": "8F5B-B6A8-ACCB",
+      "displayName": "Metadot Mojo Helpdesk",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/90A5-466E-41D7",
+      "serviceId": "90A5-466E-41D7",
+      "displayName": "Dace IT d/b/a Sense Traffic Pulse ORIGAMI | Oak Ridge Graph Analytics for Medical Innovation",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9121-2361-23F2",
+      "serviceId": "9121-2361-23F2",
+      "displayName": "MiClient Private Ltd. MiClient - Proposal Management",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9186-F79E-3871",
+      "serviceId": "9186-F79E-3871",
+      "displayName": "Anthos",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/925E-85C7-9463",
+      "serviceId": "925E-85C7-9463",
+      "displayName": "Spotinst",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9287-AAA3-27A0",
+      "serviceId": "9287-AAA3-27A0",
+      "displayName": "Shape Security Shape Enterprise Defense",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9501-987F-84F0",
+      "serviceId": "9501-987F-84F0",
+      "displayName": "BigQuery Data Transfer Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/95FF-2EF5-5EA1",
+      "serviceId": "95FF-2EF5-5EA1",
+      "displayName": "Cloud Storage",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9662-B51E-5089",
+      "serviceId": "9662-B51E-5089",
+      "displayName": "Cloud SQL",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/96C2-B131-EA62",
+      "serviceId": "96C2-B131-EA62",
+      "displayName": "DataStax Apache Cassandra as a Service for Google Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/97C3-5FC1-5C7E",
+      "serviceId": "97C3-5FC1-5C7E",
+      "displayName": "TYMLEZ Inc. TBSP",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9864-1438-35FA",
+      "serviceId": "9864-1438-35FA",
+      "displayName": "Twinword Inc. Category Recommendation API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9898-37B0-CE05",
+      "serviceId": "9898-37B0-CE05",
+      "displayName": "Confluent Cloud for Apache Kafka POC",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9B82-7513-9D1C",
+      "serviceId": "9B82-7513-9D1C",
+      "displayName": "Stackdriver Trace",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9BC8-1C6A-599D",
+      "serviceId": "9BC8-1C6A-599D",
+      "displayName": "PerimeterX PerimeterX Bot Defender",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9D7B-3C82-FC75",
+      "serviceId": "9D7B-3C82-FC75",
+      "displayName": "Lightbend Inc. Cloudflow",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/9F34-C20A-7E12",
+      "serviceId": "9F34-C20A-7E12",
+      "displayName": "Aparavi Aparavi Active Archive",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A0C0-A10B-4448",
+      "serviceId": "A0C0-A10B-4448",
+      "displayName": "Computerlogy SocialEnable",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A18B-E573-B019",
+      "serviceId": "A18B-E573-B019",
+      "displayName": "Cloud Document API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A1E8-BE35-7EBC",
+      "serviceId": "A1E8-BE35-7EBC",
+      "displayName": "Cloud Pub/Sub",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A1F4-1B78-E915",
+      "serviceId": "A1F4-1B78-E915",
+      "displayName": "Rollbar",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A2D7-459C-409B",
+      "serviceId": "A2D7-459C-409B",
+      "displayName": "Global Tax as a Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A3D0-A1C2-E18D",
+      "serviceId": "A3D0-A1C2-E18D",
+      "displayName": "MongoDB Atlas Professional",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A475-2564-63A2",
+      "serviceId": "A475-2564-63A2",
+      "displayName": "Twinword Inc. Keyword Suggestion API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A535-C417-5C52",
+      "serviceId": "A535-C417-5C52",
+      "displayName": "MYFUNDBOX Payments",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A61E-D16C-A1D1",
+      "serviceId": "A61E-D16C-A1D1",
+      "displayName": "MongoDB Atlas GCP Free",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/A6FF-0543-DA73",
+      "serviceId": "A6FF-0543-DA73",
+      "displayName": "Plugon Plugon Augmentation",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/AB0F-496F-FE96",
+      "serviceId": "AB0F-496F-FE96",
+      "displayName": "Codefresh",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/AD74-09F0-CDF1",
+      "serviceId": "AD74-09F0-CDF1",
+      "displayName": "USAN Dialogflow Enterprise Telephony Gateway",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B3C4-4767-F8EF",
+      "serviceId": "B3C4-4767-F8EF",
+      "displayName": "Google Speech Speech-to-Text On-Prem Alpha",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B535-0353-0619",
+      "serviceId": "B535-0353-0619",
+      "displayName": "Product-Market Intelligence - Inventurist AI Lite",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B566-4E24-AC28",
+      "serviceId": "B566-4E24-AC28",
+      "displayName": "Twinword Inc. Sentiment Analysis API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B5ED-C1BD-9EDA",
+      "serviceId": "B5ED-C1BD-9EDA",
+      "displayName": "Palo Alto Networks Prisma Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B6AD-002A-7048",
+      "serviceId": "B6AD-002A-7048",
+      "displayName": "Elasticsearch",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/B7D9-FDCB-15D8",
+      "serviceId": "B7D9-FDCB-15D8",
+      "displayName": "Directions API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/B86C-B269-526F",
+      "serviceId": "B86C-B269-526F",
+      "displayName": "Julia Computing, Inc. JuliaTeam-v1.1.1",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/BD55-7A8A-F33E",
+      "serviceId": "BD55-7A8A-F33E",
+      "displayName": "GW Apps GW Apps",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/BE6C-C25C-7D7F",
+      "serviceId": "BE6C-C25C-7D7F",
+      "displayName": "Kafkaesque Technologies Inc. Kafkaesque",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/BFB3-57CC-CA94",
+      "serviceId": "BFB3-57CC-CA94",
+      "displayName": "Aerospike Server Enterprise",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C073-6AB9-07ED",
+      "serviceId": "C073-6AB9-07ED",
+      "displayName": "Vogsy Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C08E-37B9-80D3",
+      "serviceId": "C08E-37B9-80D3",
+      "displayName": "Cloud Vision API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C1F4-4081-8121",
+      "serviceId": "C1F4-4081-8121",
+      "displayName": "omniX labs omniX Vision | Analyze video in real time",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C250-726E-A553",
+      "serviceId": "C250-726E-A553",
+      "displayName": "Time Zone API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/C3BE-24A5-0975",
+      "serviceId": "C3BE-24A5-0975",
+      "displayName": "Cloud Bigtable",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C4EF-6F54-1EC6",
+      "serviceId": "C4EF-6F54-1EC6",
+      "displayName": "Data Theorem, Inc. API Discover and Inspect",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C7DA-6CFA-DF6E",
+      "serviceId": "C7DA-6CFA-DF6E",
+      "displayName": "Google Service Control",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/C9E7-8067-301E",
+      "serviceId": "C9E7-8067-301E",
+      "displayName": "Pollstar Data Cloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CA35-F316-551B",
+      "serviceId": "CA35-F316-551B",
+      "displayName": "qbol-gcp-dev-console Qubole Data Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CAE2-A537-4A95",
+      "serviceId": "CAE2-A537-4A95",
+      "displayName": "Source Repository",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CC63-0873-48FD",
+      "serviceId": "CC63-0873-48FD",
+      "displayName": "Cloud Spanner",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CCD8-9BF1-090E",
+      "serviceId": "CCD8-9BF1-090E",
+      "displayName": "Kubernetes Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CE28-B9D9-FA03",
+      "serviceId": "CE28-B9D9-FA03",
+      "displayName": "Twinword Inc. Visual Context Graph API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CEEF-BFF7-3026",
+      "serviceId": "CEEF-BFF7-3026",
+      "displayName": "Buzzboard SMB Streams",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/CF79-2786-ADFC",
+      "serviceId": "CF79-2786-ADFC",
+      "displayName": "Maps Static API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/D366-8356-E9B7",
+      "serviceId": "D366-8356-E9B7",
+      "displayName": "floreysoft Ultradox for G Suite",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D64E-AF12-1813",
+      "serviceId": "D64E-AF12-1813",
+      "displayName": "Cloud Data Loss Prevention",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D652-FB32-33B4",
+      "serviceId": "D652-FB32-33B4",
+      "displayName": "Presslabs Presslabs Dashboard",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D69F-40F1-9861",
+      "serviceId": "D69F-40F1-9861",
+      "displayName": "Bluecore",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D7CA-8319-A87F",
+      "serviceId": "D7CA-8319-A87F",
+      "displayName": "Galactic Fog Gestalt",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D819-74AC-1E0C",
+      "serviceId": "D819-74AC-1E0C",
+      "displayName": "Twinword Inc. Text Classification API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D870-408D-92A6",
+      "serviceId": "D870-408D-92A6",
+      "displayName": "Cloud Document AI API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D909-55BF-2B2F",
+      "serviceId": "D909-55BF-2B2F",
+      "displayName": "Cloud Talent Solution",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D961-88BE-4D2D",
+      "serviceId": "D961-88BE-4D2D",
+      "displayName": "Transfer Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/D97E-AB26-5D95",
+      "serviceId": "D97E-AB26-5D95",
+      "displayName": "Cloud Filestore",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DC5D-D207-FD2F",
+      "serviceId": "DC5D-D207-FD2F",
+      "displayName": "Identity Platform",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DC60-CAF7-C315",
+      "serviceId": "DC60-CAF7-C315",
+      "displayName": "Avik Cloud AvikCloud",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DCC9-8DB9-673F",
+      "serviceId": "DCC9-8DB9-673F",
+      "displayName": "BigQuery Storage API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DD2A-3C5C-44AF",
+      "serviceId": "DD2A-3C5C-44AF",
+      "displayName": "Looker Data Platform SaaS",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DD3A-CCB2-2B76",
+      "serviceId": "DD3A-CCB2-2B76",
+      "displayName": "Confluent Cloud Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/DE5F-D84C-F733",
+      "serviceId": "DE5F-D84C-F733",
+      "displayName": "Remote Build Execution",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E000-3F24-B8AA",
+      "serviceId": "E000-3F24-B8AA",
+      "displayName": "Cloud TPU",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E0F6-1565-F073",
+      "serviceId": "E0F6-1565-F073",
+      "displayName": "Tanker",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E19D-14A9-5725",
+      "serviceId": "E19D-14A9-5725",
+      "displayName": "Cloud Machine Learning Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E1D8-71A6-53DE",
+      "serviceId": "E1D8-71A6-53DE",
+      "displayName": "Distance Matrix API",
+      "businessEntityName": "businessEntities/Maps"
+    },
+    {
+      "name": "services/E212-9E5B-9BC7",
+      "serviceId": "E212-9E5B-9BC7",
+      "displayName": "Harness, Inc. Harness",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E754-DDD1-D547",
+      "serviceId": "E754-DDD1-D547",
+      "displayName": "Fortinet Inc. Fortinet FortiWeb Cloud WAF-as-a-Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E790-1EC8-206A",
+      "serviceId": "E790-1EC8-206A",
+      "displayName": "Weaveworks",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/E904-3803-243D",
+      "serviceId": "E904-3803-243D",
+      "displayName": "ManagedKube Kubernetes Cost Attribution",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/EAEC-9CF2-5E3D",
+      "serviceId": "EAEC-9CF2-5E3D",
+      "displayName": "Twinword Inc. Word Quiz API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/ED2A-C905-65D4",
+      "serviceId": "ED2A-C905-65D4",
+      "displayName": "HeadSpin HeadSpin Mobile Performance",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/ED34-2A09-AC0E",
+      "serviceId": "ED34-2A09-AC0E",
+      "displayName": "Red Pill Analytics",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/EDA4-10BF-88A3",
+      "serviceId": "EDA4-10BF-88A3",
+      "displayName": "Cloud AutoML",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/EE2F-D110-890C",
+      "serviceId": "EE2F-D110-890C",
+      "displayName": "Cloud Key Management Service (KMS)",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/EE82-7A5E-871C",
+      "serviceId": "EE82-7A5E-871C",
+      "displayName": "Secret Manager",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/F17B-412E-CB64",
+      "serviceId": "F17B-412E-CB64",
+      "displayName": "App Engine",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/F257-99C0-20C0",
+      "serviceId": "F257-99C0-20C0",
+      "displayName": "Redis Enterprise",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/F33E-369C-A8B4",
+      "serviceId": "F33E-369C-A8B4",
+      "displayName": "superQuery",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/F3A6-D7B7-9BDA",
+      "serviceId": "F3A6-D7B7-9BDA",
+      "displayName": "Cloud Tasks",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/F989-1CCC-2F26",
+      "serviceId": "F989-1CCC-2F26",
+      "displayName": "MongoDB Atlas Starter",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FA26-5236-B8B5",
+      "serviceId": "FA26-5236-B8B5",
+      "displayName": "Cloud DNS",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FBC0-AA4A-C89A",
+      "serviceId": "FBC0-AA4A-C89A",
+      "displayName": "Cloud Dialogflow API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FBF2-FC68-171A",
+      "serviceId": "FBF2-FC68-171A",
+      "displayName": "Security Command Center",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FBF3-D5F4-8DAE",
+      "serviceId": "FBF3-D5F4-8DAE",
+      "displayName": "Twinword Inc. Lemmatizer API",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FC28-4763-0E99",
+      "serviceId": "FC28-4763-0E99",
+      "displayName": "NS8 NS8 Protect",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FD10-51B1-0541",
+      "serviceId": "FD10-51B1-0541",
+      "displayName": "PerimeterX Bot Defender Mobile",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FE65-6566-F37B",
+      "serviceId": "FE65-6566-F37B",
+      "displayName": "Komprise",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FEF0-295D-9A74",
+      "serviceId": "FEF0-295D-9A74",
+      "displayName": "itopia",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FEF5-AB05-B216",
+      "serviceId": "FEF5-AB05-B216",
+      "displayName": "Qubole Data Service",
+      "businessEntityName": "businessEntities/GCP"
+    },
+    {
+      "name": "services/FF70-CD65-E285",
+      "serviceId": "FF70-CD65-E285",
+      "displayName": "Actifio GO for GCP",
+      "businessEntityName": "businessEntities/GCP"
+    }
+  ],
+  "nextPageToken": ""
+}
