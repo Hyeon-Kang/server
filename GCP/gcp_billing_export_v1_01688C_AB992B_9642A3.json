@@ -1,0 +1,4070 @@
+[
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "7.47E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3.8654829763525E13",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.01436786221930441",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-7.47E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "6.16E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3.1886637508249E13",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.011852149321524962",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-6.16E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "1.91E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "9.907565149602E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.0036826065945473833",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.91E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "7.48E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3.8654584672945E13",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.014367771120010836",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-7.48E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "1.14E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "5.895801264626E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.002191448281127347",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.14E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "1.3E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "6.76815178974E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.0025156978568841855",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.3E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "7.47E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3.8654584672945E13",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.014367771120010836",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "amount": "-7.47E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9977-2BC5-386A",
+      "description": "Storage PD Capacity in Japan"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "5.55E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2.8747289853952E13",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "0.010685265006385697",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-5.55E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.0033",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2969.515991",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.8248655530555555",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.0033"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.001025",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "922.664647",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.25629573527777777",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.001025"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.003999",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3599.819362",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.9999498227777778",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.003999"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "7.0E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "630.378389",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.17510510805555554",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-7.0E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.004",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.004"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "6.11E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "549.128599",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.15253572194444445",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-6.11E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.004",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.004"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "0.002975",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2678.0",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.7438888888888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.002975"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 00:00:00 UTC",
+    "usage_end_time": "2020-02-10 01:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "6360.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "5.923211574554443E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "9203.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "8.570961654186249E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "15562.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.4493241906166077E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 01:00:00 UTC",
+    "usage_end_time": "2020-02-10 02:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "15562.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.4493241906166077E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "8378.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "7.802620530128479E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3424.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.1888484954833984E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "ABE7-A6A4-7E29",
+      "description": "Network Internet Egress from Japan to APAC"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "8378.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "7.802620530128479E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 16:00:00 UTC",
+    "usage_end_time": "2020-02-10 17:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 08:00:00 UTC",
+    "usage_end_time": "2020-02-10 09:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10478.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.758397936820984E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 12:00:00 UTC",
+    "usage_end_time": "2020-02-10 13:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 14:00:00 UTC",
+    "usage_end_time": "2020-02-10 15:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 09:00:00 UTC",
+    "usage_end_time": "2020-02-10 10:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10478.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.758397936820984E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 17:00:00 UTC",
+    "usage_end_time": "2020-02-10 18:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 11:00:00 UTC",
+    "usage_end_time": "2020-02-10 12:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 10:00:00 UTC",
+    "usage_end_time": "2020-02-10 11:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10478.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.758397936820984E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 15:00:00 UTC",
+    "usage_end_time": "2020-02-10 16:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 13:00:00 UTC",
+    "usage_end_time": "2020-02-10 14:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 22:34:20.962 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10477.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.757466614246368E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 01:00:00 UTC",
+    "usage_end_time": "2020-02-10 02:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "3.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "18849.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.7554499208927155E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-3.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "2.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "18849.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.7554499208927155E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-2.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "11147.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.0381452739238739E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 00:00:00 UTC",
+    "usage_end_time": "2020-02-10 01:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "7704.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "7.1749091148376465E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10340.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.629875421524048E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "10339.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "9.628944098949432E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "9520.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "8.866190910339355E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "AE12-2FA9-FF84",
+      "description": "Network Internet Egress from Japan to EMEA"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "4225.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.934837877750397E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 15:33:57.078 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1670.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.5553086996078491E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 15:33:57.078 UTC",
+    "cost": "3.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "21074.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.9626691937446594E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-3.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "7.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "33139.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.086309880018234E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-7.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 01:00:00 UTC",
+    "usage_end_time": "2020-02-10 02:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "7.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "33139.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.086309880018234E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-7.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "4.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "19597.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.8251128494739532E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-4.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 00:00:00 UTC",
+    "usage_end_time": "2020-02-10 01:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "3.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "13544.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.2613832950592041E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-3.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "8.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "35826.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.336556255817413E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-8.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "4.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "14639.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.363363116979599E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-4.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "7.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "35826.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.336556255817413E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-7.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "0D27-F4FA-E8E0",
+      "description": "Network Internet Egress from Japan to China"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "6.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "32987.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "3.072153776884079E-5",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-6.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9BD3-FF87-6DCB",
+      "description": "Network Internet Egress from Japan to Americas"
+    },
+    "usage_start_time": "2020-02-10 01:00:00 UTC",
+    "usage_end_time": "2020-02-10 02:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "6154.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "5.731359124183655E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9BD3-FF87-6DCB",
+      "description": "Network Internet Egress from Japan to Americas"
+    },
+    "usage_start_time": "2020-02-10 00:00:00 UTC",
+    "usage_end_time": "2020-02-10 01:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2516.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "2.343207597732544E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9BD3-FF87-6DCB",
+      "description": "Network Internet Egress from Japan to Americas"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1439.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.3401731848716736E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.00161",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "630.378389",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.17510510805555554",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.00161"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.001404",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "549.128599",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.15253572194444445",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.001404"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.0092",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.0092"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.009201",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.009201"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.0092",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3599.819362",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.9999498227777778",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "Sustained Usage Discount",
+        "amount": "-0.00184"
+      },
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.007359"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.002357",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "922.664647",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.25629573527777777",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "Sustained Usage Discount",
+        "amount": "-4.71E-4"
+      },
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.001886"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.007589",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2969.515991",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.8248655530555555",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "Sustained Usage Discount",
+        "amount": "-0.001518"
+      },
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.006072"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9E0C-B73D-E7DF",
+      "description": "Micro Instance with burstable CPU running in Japan"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [
+      {
+        "key": "compute.googleapis.com/cores",
+        "value": "1"
+      },
+      {
+        "key": "compute.googleapis.com/machine_spec",
+        "value": "f1-micro"
+      },
+      {
+        "key": "compute.googleapis.com/memory",
+        "value": "614"
+      }
+    ],
+    "location": {
+      "location": "asia-northeast1",
+      "country": "JP",
+      "region": "asia-northeast1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "0.006843",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2678.0",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.7438888888888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "Sustained Usage Discount",
+        "amount": "-0.00137"
+      },
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-0.005473"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:09:04.611 UTC",
+    "cost": "1.5E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "5.01271136002E11",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "1.863206916354599E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.5E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:09:04.611 UTC",
+    "cost": "5.1E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1.613297592871E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "5.996569555450087E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-5.1E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:09:04.611 UTC",
+    "cost": "6.2E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1.955732829911E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "7.269389106053354E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-6.2E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "1.0E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2.98298696358E11",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "1.1087656046319182E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "1.0E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3.42435364594E11",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "1.2728200247169306E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "6.2E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1.955732850996E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "7.269389184425545E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-6.2E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "6.1E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1.955732850996E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "7.269389184425545E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-6.1E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "DAA2-253C-6680",
+      "description": "Storage Image"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "4.5E-5",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "1.454461739008E12",
+      "unit": "byte-seconds",
+      "amount_in_pricing_units": "5.406182357330127E-4",
+      "pricing_unit": "gibibyte month"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-4.5E-5"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.0033",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2969.515991",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.8248655530555555",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.0033"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.001025",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "922.664647",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.25629573527777777",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.001025"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 06:00:00 UTC",
+    "usage_end_time": "2020-02-10 07:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 11:39:12.194 UTC",
+    "cost": "0.003999",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3599.819362",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.9999498227777778",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.003999"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.004",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.004"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "6.11E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "549.128599",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.15253572194444445",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-6.11E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "0.004",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "3600.246506",
+      "unit": "seconds",
+      "amount_in_pricing_units": "1.000068473888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.004"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 09:29:26.900 UTC",
+    "cost": "7.0E-4",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "630.378389",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.17510510805555554",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-7.0E-4"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "C054-7F72-A02E",
+      "description": "External IP Charge on a Standard VM"
+    },
+    "usage_start_time": "2020-02-10 07:00:00 UTC",
+    "usage_end_time": "2020-02-10 08:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 13:19:12.352 UTC",
+    "cost": "0.002975",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2678.0",
+      "unit": "seconds",
+      "amount_in_pricing_units": "0.7438888888888889",
+      "pricing_unit": "hour"
+    },
+    "credits": [
+      {
+        "name": "External IPs will not be charged until April 1, 2020.",
+        "amount": "-0.002975"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 00:00:00 UTC",
+    "usage_end_time": "2020-02-10 01:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2476.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "2.305954694747925E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 01:00:00 UTC",
+    "usage_end_time": "2020-02-10 02:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "6059.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "5.642883479595184E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 02:00:00 UTC",
+    "usage_end_time": "2020-02-10 03:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 08:19:12.132 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "6058.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "5.641952157020569E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 04:00:00 UTC",
+    "usage_end_time": "2020-02-10 05:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "5007.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "4.663132131099701E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 03:00:00 UTC",
+    "usage_end_time": "2020-02-10 04:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "2046.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "1.905485987663269E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  },
+  {
+    "billing_account_id": "01688C-AB992B-9642A3",
+    "service": {
+      "id": "6F81-5844-456A",
+      "description": "Compute Engine"
+    },
+    "sku": {
+      "id": "9DE9-9092-B3BC",
+      "description": "Network Internet Egress from Americas to China"
+    },
+    "usage_start_time": "2020-02-10 05:00:00 UTC",
+    "usage_end_time": "2020-02-10 06:00:00 UTC",
+    "project": {
+      "id": "bosh-261115",
+      "name": "bosh",
+      "labels": [],
+      "ancestry_numbers": null
+    },
+    "labels": [],
+    "system_labels": [],
+    "location": {
+      "location": "us-central1",
+      "country": "US",
+      "region": "us-central1",
+      "zone": null
+    },
+    "export_time": "2020-02-10 12:34:01.910 UTC",
+    "cost": "1.0E-6",
+    "currency": "USD",
+    "currency_conversion_rate": "1.0",
+    "usage": {
+      "amount": "5007.0",
+      "unit": "bytes",
+      "amount_in_pricing_units": "4.663132131099701E-6",
+      "pricing_unit": "gibibyte"
+    },
+    "credits": [
+      {
+        "name": "FreeTrial:Credit-01688C-AB992B-9642A3",
+        "amount": "-1.0E-6"
+      }
+    ],
+    "invoice": {
+      "month": "202002"
+    },
+    "cost_type": "regular"
+  }
+]
