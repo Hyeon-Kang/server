@@ -141,3 +141,66 @@ https://cloud.google.com/billing/docs/how-to/notify#selectively_control_usage
 
 Pub/Sub란 무엇인가요? :
 https://cloud.google.com/pubsub/docs/overview
+
+
+
+# big query 2월달 크레딧 적용 후 요금제
+select invoice.month, service.description, ROUND(SUM(cost) + SUM(IFNULL(( Select SUM (c.amount) from UNNEST(credits) c), 0))) AS cost_after_credits FROM test_billing.gcp_billing_export_v1_01688C_AB992B_9642A3 where invoice.month = "202002" group by 1,2;
+
+
+POST request Body (HashMap) return 정리
+https://javaiyagi.tistory.com/457
+
+
+
+
+public Map<String, Object> getGcpAcessToken(String code) {
+
+  // RestTemplate을 사용하여 Access Token 및 profile을 요청한다.
+  RestTemplate restTemplate = new RestTemplate();
+  MultiValueMap<String, String> parameters = new LinkedMultiValueMap<>();
+
+  parameters.add("code", code);
+  parameters.add("client_id", applicationProperties.getGcp().getClientId());
+  parameters.add("client_secret", applicationProperties.getGcp().getClientSecret());
+  parameters.add("redirect_uri", applicationProperties.getGcp().getRedirectUri());
+  parameters.add("grant_type", "authorization_code");
+
+  HttpHeaders headers = new HttpHeaders();
+  headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
+  HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity<MultiValueMap<String, String>>(
+      parameters, headers);
+  ResponseEntity<Map> responseEntity = restTemplate.exchange("https://www.googleapis.com/oauth2/v4/token",
+      HttpMethod.POST, requestEntity, Map.class);
+  Map<String, Object> responseMap = responseEntity.getBody();
+
+  String access_token = (String) responseMap.get("access_token");
+  String refresh_token = (String) responseMap.get("refresh_token");
+
+  // String ip_add1 = getIPaddr(access_token); // 공인 임시 ip address 가져오기
+  // get_info(access_token); // 특정 시간대 cpu utilization 테스트
+
+  Map<String, Object> resultMap = new HashMap<>();
+  resultMap.put("access_token", access_token);
+  resultMap.put("refresh_token", refresh_token);
+
+  logger.debug("access_token [{}], refresh_token [{}]", access_token, refresh_token);
+
+  return resultMap;
+}
+
+
+// GET https://cloudbilling.googleapis.com/v1/billingAccounts]
+URI uri = UriComponentsBuilder.newInstance().scheme("https").host("bigquery.googleapis.com")
+    .path("bigquery/v2/projects/{project}/queries")
+    .queryParam("query", month_query)
+    .queryParam("location", zone)
+    .queryParam("kind", "bigquery#queryRequest")
+    .build().expand(project).encode().toUri();
+
+
+
+쿼리가 복잡해지면 오류가 뜬다...
+
+오류 메시지 : https://cloud.google.com/bigquery/docs/error-messages
+오류 네임 : https://cloud.google.com/bigquery/troubleshooting-errors?hl=ko
