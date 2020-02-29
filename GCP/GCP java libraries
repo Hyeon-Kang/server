@@ -5,3 +5,15 @@ https://cloud.google.com/java/docs/reference
 monitoring
 
 https://googleapis.dev/java/google-cloud-clients/latest/com/google/cloud/monitoring/v3/MetricServiceClient.html
+
+
+billing
+https://cloud.google.com/billing/v1/libraries#java
+
+compute
+https://cloud.google.com/compute/docs/api/libraries
+https://github.com/GoogleCloudPlatform/java-docs-samples/blob/master/compute/cmdline/README.md
+
+
+인스턴스 리스트
+https://developers.google.com/resources/api-libraries/documentation/compute/v1/java/latest/com/google/api/services/compute/model/InstanceList.html
