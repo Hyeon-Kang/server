@@ -19,3 +19,7 @@ ex) 기존쿼리 : SELECT * FROM MEMBER; 이를 ORM을 사용하면 Member테이
 
 
 출처: https://goddaehee.tistory.com/209 [갓대희의 작은공간]
+
+
+JPA 기반지식 (이게 가장 잘 된듯)
+https://happygrammer.tistory.com/80?category=891896
