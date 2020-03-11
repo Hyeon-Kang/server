@@ -23,3 +23,22 @@ ex) 기존쿼리 : SELECT * FROM MEMBER; 이를 ORM을 사용하면 Member테이
 
 JPA 기반지식 (이게 가장 잘 된듯)
 https://happygrammer.tistory.com/80?category=891896
+
+Query DSL 을 쓰는 이유
+https://ict-nroo.tistory.com/117
+
+동적 쿼리 때문에 사용함. JPQL은 정적쿼리만 지원
+
+
+LOMBOK 세팅
+https://duzi077.tistory.com/142
+
+
+JPA 어노테이션 정리
+https://www.icatpark.com/107
+
+이거 따라해보자...
+https://gofnrk.tistory.com/20?category=763542
+
+application.yml
+https://blog.jiniworld.me/29
